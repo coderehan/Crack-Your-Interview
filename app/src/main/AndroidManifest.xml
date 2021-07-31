@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rehan.interviewcrackathon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.rehan.interviewcrackathon.HR20" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR19" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR18" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR17" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR16" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR15" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR14" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR13" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR12" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR11" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR10" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR9" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR8" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR7" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR6" android:parentActivityName="com.rehan.interviewcrackathon.HR" />
+        <activity android:name="com.rehan.interviewcrackathon.HR5" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR4" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR3" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR2" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity android:name="com.rehan.interviewcrackathon.HR1" android:parentActivityName="com.rehan.interviewcrackathon.HR"/>
+        <activity
+            android:name="com.rehan.interviewcrackathon.AboutDeveloper"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.InterviewTips"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.HR"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.ST"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.OS"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.OOPS"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.DS"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.DBMS"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.CN"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.SQL"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.Python"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.JS"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.Java"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.CPP"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity
+            android:name="com.rehan.interviewcrackathon.C"
+            android:parentActivityName="com.rehan.interviewcrackathon.MainActivity" />
+        <activity android:name="com.rehan.interviewcrackathon.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rehan.interviewcrackathon.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

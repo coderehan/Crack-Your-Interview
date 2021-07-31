@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon_black">
+        </item>
+    </group>
+
+    <item
+        android:title="Programming Questions">
+
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_c"
+                    android:title="C"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_cpp"
+                    android:title="C++"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_java"
+                    android:title="Java"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_js"
+                    android:title="Java Script"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_python"
+                    android:title="Python"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_sql"
+                    android:title="SQL"
+                    android:icon="@drawable/option_icon">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Core Subjects Questions">
+
+        <menu>
+            <group
+                android:id="@+id/group3"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_cn"
+                    android:title="Computer Networks"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_dbms"
+                    android:title="Database Management System"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_ds"
+                    android:title="Data Structures"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_oops"
+                    android:title="Object Oriented Programming"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_os"
+                    android:title="Operating System"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_st"
+                    android:title="Software Testing"
+                    android:icon="@drawable/option_icon">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Bonus Questions">
+
+        <menu>
+            <group
+                android:id="@+id/group4"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_hr"
+                    android:title="HR Questions"
+                    android:icon="@drawable/option_icon">
+                </item>
+
+                <item
+                    android:id="@+id/nav_interview_tips"
+                    android:title="Interview Tips"
+                    android:icon="@drawable/option_icon">
+                </item>
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_developer"
+            android:title="About Developer"
+            android:icon="@drawable/developer_icon">
+        </item>
+
+        <item
+            android:id="@+id/nav_rate_app"
+            android:title="Rate App"
+            android:icon="@drawable/rate_icon">
+        </item>
+
+        <item
+            android:id="@+id/nav_share_app"
+            android:title="Share App"
+            android:icon="@drawable/share_icon">
+        </item>
+    </group>
+
+</menu>

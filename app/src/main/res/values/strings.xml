@@ -1,0 +1,1653 @@
+<resources>
+    <string name="app_name">Crack Your Interview</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="about_developer">This Android Application is Designed and Developed by "<b>Mohammed Rehan</b>". Am a Tech Enthusiastic and Self-Taught Programmer who is passionate about writing codes and building apps. I have developed this app for all those buddies who wants to crack interviews in top MNCs. These questions are frequently asked in interviews. With the help of this app, students can crack their interviews as this app serves as the best platform for them. This app contains most Frequently Asked Question (FAQ) in various programming languages and core subjects. All these questions are often asked by interviewers. This app also has most frequently asked HR Questions with best possible answers. This app also has awesome tips on how to prepare for interview. \n\n "<b>Best of Luck for your Interview!!! </b>"</string>
+
+    <!--C Programming-->
+    <string name="c_q1">1. What is C language?</string>
+    <string name="c_q2">2. Why is C known as a mother language?</string>
+    <string name="c_q3">3. Why is C called a mid-level programming language?</string>
+    <string name="c_q4">4. Who is the founder of C language?</string>
+    <string name="c_q5">5. When was C language developed?</string>
+    <string name="c_q6">6. What are the features of the C language?</string>
+    <string name="c_q7">7. What is the use of printf() and scanf() functions?</string>
+    <string name="c_q8">8. What is the difference between the local variable and global variable in C?</string>
+    <string name="c_q9">9. What is the use of a static variable in C?</string>
+    <string name="c_q10">10. What is the use of the function in C?</string>
+    <string name="c_q11">11. What is the difference between call by value and call by reference in C?</string>
+    <string name="c_q12">12. What is recursion in C?</string>
+    <string name="c_q13">13. What is an array in C?</string>
+    <string name="c_q14">14. What is a pointer in C?</string>
+    <string name="c_q15">15. What is the usage of the pointer in C?</string>
+    <string name="c_q16">16. What is a NULL pointer in C?</string>
+    <string name="c_q17">17. What is a far pointer in C?</string>
+    <string name="c_q18">18. What is dangling pointer in C?</string>
+    <string name="c_q19">19. What is pointer to pointer in C?</string>
+    <string name="c_q20">20. What is static memory allocation?</string>
+    <string name="c_q21">21. What is dynamic memory allocation?</string>
+    <string name="c_q22">22. What functions are used for dynamic memory allocation in C language?</string>
+    <string name="c_q23">23. What is the difference between malloc() and calloc()?</string>
+    <string name="c_q24">24. What is the structure?</string>
+    <string name="c_q25">25. What is a union?</string>
+    <string name="c_q26">26. What is an auto keyword in C?</string>
+    <string name="c_q27">27. What is the purpose of sprintf() function?</string>
+    <string name="c_q28">28. Can we compile a program without main() function?</string>
+    <string name="c_q29">29. What is a token?</string>
+    <string name="c_q30">30. What is command line argument?</string>
+
+    <string name="c_a1">C is a mid-level and procedural programming language. The Procedural programming language is also known as the structured programming language is a technique in which large programs are broken down into smaller modules, and each module uses structured code. This technique minimizes error and misinterpretation.</string>
+    <string name="c_a2">C is known as a mother language because most of the compilers and JVMs are written in C language. Most of the languages which are developed after C language has borrowed heavily from it like C++, Python, Rust, javascript, etc. It introduces new core concepts like arrays, functions, file handling which are used in these languages.</string>
+    <string name="c_a3">C is called a mid-level programming language because it binds the low level and high -level programming language. We can use C language as a System programming to develop the operating system as well as an Application programming to generate menu driven customer driven billing system.</string>
+    <string name="c_a4">Dennis Ritchie.</string>
+    <string name="c_a5">C language was developed in 1972 at bell laboratories of AT and T.</string>
+    <string name="c_a6">Simple \n
+Portable \n
+Mid Level \n
+Structured \n
+Fast Speed \n
+Memory Management \n
+Extensible</string>
+    <string name="c_a7">printf(): The printf() function is used to print the integer, character, float and string values on to the screen. \n
+scanf(): The scanf() function is used to take input from the user.</string>
+    <string name="c_a8">A variable which is declared inside function or block is known as a local variable. \n
+A variable which is declared outside function or block is known as a global variable.</string>
+    <string name="c_a9">A variable which is declared as static is known as a static variable. The static variable retains its value between multiple function calls. \n
+Static variables are used because the scope of the static variable is available in the entire program. So, we can access a static variable anywhere in the program.</string>
+    <string name="c_a10">C functions are used to avoid the rewriting the same code again and again in our program. \n
+C functions can be called any number of times from any place of our program. \n
+When a program is divided into functions, then any part of our program can easily be tracked.</string>
+    <string name="c_a11">Call by value : When a copy of the value is passed to the function, then the original value is not modified. \n\n
+Call by reference : When a copy of the value is passed to the function, then the original value is modified.</string>
+    <string name="c_a12">When a function calls itself, and this process is known as recursion. The function that calls itself is known as a recursive function.</string>
+    <string name="c_a13">An Array is a group of similar types of elements. It has a contiguous memory location. It makes the code optimized, easy to traverse and easy to sort. The size and type of arrays cannot be changed after its declaration.</string>
+    <string name="c_a14">A pointer is a variable that refers to the address of a value. It makes the code optimized and makes the performance fast. Whenever a variable is declared inside a program, then the system allocates some memory to a variable. The memory contains some address number. The variables that hold this address number is known as the pointer variable.</string>
+    <string name="c_a15">Accessing array elements \n
+Dynamic memory allocation \n
+Call by Reference \n
+Data Structures like a tree, graph, linked list, etc.</string>
+    <string name="c_a16">A pointer that does not refer to any address of value but NULL is known as a NULL pointer. When we assign a 0 value to a pointer of any type, then it becomes a Null pointer.</string>
+    <string name="c_a17">A pointer which can access all the 16 segments (whole residence memory) of RAM is known as far pointer. A far pointer is a 32-bit pointer that obtains information outside the memory in a given section.</string>
+    <string name="c_a18">If a pointer is pointing any memory location, but meanwhile another pointer deletes the memory occupied by the first pointer while the first pointer still points to that memory location, the first pointer will be known as a dangling pointer. This problem is known as a dangling pointer problem.</string>
+    <string name="c_a19">In case of a pointer to pointer concept, one pointer refers to the address of another pointer. The pointer to pointer is a chain of pointers. Generally, the pointer contains the address of a variable. The pointer to pointer contains the address of a first pointer. </string>
+    <string name="c_a20">In case of static memory allocation, memory is allocated at compile time, and memory cant be increased while executing the program. It is used in the array. \n
+The lifetime of a variable in static memory is the lifetime of a program. \n
+The static memory is allocated using static keyword.</string>
+    <string name="c_a21">In case of dynamic memory allocation, memory is allocated at runtime and memory can be increased while executing the program. It is used in the linked list. \n
+The malloc() or calloc() function is required to allocate the memory at the runtime.</string>
+    <string name="c_a22">malloc() \n
+calloc() \n
+realloc() \n
+free()</string>
+    <string name="c_a23">The malloc() function allocates a single block of requested memory. \n
+The calloc() function allocates multiple blocks of requested memory.</string>
+    <string name="c_a24">
+    The structure is a user-defined data type that allows storing multiple types of data in a single unit. It occupies the sum of the memory of all members. \n
+    The structure members can be accessed only through structure variables. \n
+    Structure variables accessing the same structure but the memory allocated for each variable will be different.
+</string>
+    <string name="c_a25">
+    The union is a user-defined data type that allows storing multiple types of data in a single unit. However, it does not occupy the sum of the memory of all members. It holds the memory of the largest member only. \n
+    In union, we can access only one variable at a time as it allocates one common space for all the members of a union.
+</string>
+    <string name="c_a26">In C, every local variable of a function is known as an automatic (auto) variable. Variables which are declared inside the function block are known as a local variable. The local variables are also known as an auto variable. It is optional to use an auto keyword before the data type of a variable. If no value is stored in the local variable, then it consists of a garbage value.</string>
+    <string name="c_a27">The sprintf() stands for "string print." The sprintf() function does not print the output on the console screen. It transfers the data to the buffer. It returns the total number of characters present in the string.</string>
+    <string name="c_a28">Yes, we can compile, but it cant be executed. \n
+But, if we use #define, we can compile and run a C program without using the main() function.</string>
+    <string name="c_a29">The Token is an identifier. It can be constant, keyword, string literal, etc. A token is the smallest individual unit in a program.</string>
+    <string name="c_a30">The argument passed to the main() function while executing the program is known as command line argument.</string>
+
+    <!--C++-->
+
+    <string name="cpp_q1">1. What is C++?</string>
+    <string name="cpp_q2">2. What are the advantages of C++?</string>
+    <string name="cpp_q3">3. What is the difference between C and C++?</string>
+    <string name="cpp_q4">4. What is the difference between reference and pointer?</string>
+    <string name="cpp_q5">5. What is a class?</string>
+    <string name="cpp_q6">6. What are the various OOPs concepts in C++?</string>
+    <string name="cpp_q7">7. What are the different types of polymorphism in C++?</string>
+    <string name="cpp_q8">8. Define namespace in C++?</string>
+    <string name="cpp_q9">9. Define token in C++?</string>
+    <string name="cpp_q10">10. Who was the creator of C++?</string>
+    <string name="cpp_q11">11. Which operations are permitted on pointers?</string>
+    <string name="cpp_q12">12. Define std?</string>
+    <string name="cpp_q13">13. Which programming language unsatisfactory performance led to the discovery of C++?</string>
+    <string name="cpp_q14">14. How delete [] is different from delete?</string>
+    <string name="cpp_q15">15. What is the full form of STL in C++?</string>
+    <string name="cpp_q16">16. What is an object?</string>
+    <string name="cpp_q17">17. What are the C++ access specifiers?</string>
+    <string name="cpp_q18">18. What is Object Oriented Programming (OOP)?</string>
+    <string name="cpp_q19">19. What is the difference between an array and a list?</string>
+    <string name="cpp_q20">20. What is the difference between new() and malloc()?</string>
+    <string name="cpp_q21">21. What are the methods of exporting a function from a DLL?</string>
+    <string name="cpp_q22">22. Define friend function?</string>
+    <string name="cpp_q23">23. What is a virtual function?</string>
+    <string name="cpp_q24">24. When should we use multiple inheritance?</string>
+    <string name="cpp_q25">25. What is a destructor?</string>
+    <string name="cpp_q26">26. What is an overflow error?</string>
+    <string name="cpp_q27">27. What is overloading?</string>
+    <string name="cpp_q28">28. What is function overriding?</string>
+    <string name="cpp_q29">29. What is virtual inheritance?</string>
+    <string name="cpp_q30">30. What is a constructor?</string>
+
+    <string name="cpp_a1">C++ is an object-oriented programming language created by Bjarne Stroustrup. It was released in 1985. \n
+C++ is a superset of C with the major addition of classes in C language.</string>
+    <string name="cpp_a2">C++ is a highly portable language means that the software developed using C++ language can run on any platform. \n
+C++ is an object-oriented programming language which includes the concepts such as classes, objects, inheritance, polymorphism, abstraction. \n
+C++ has the concept of inheritance. Through inheritance, one can eliminate the redundant code and can reuse the existing classes.</string>
+    <string name="cpp_a3">C language was developed by Dennis Ritchie. \n
+C is a structured programming language. \n
+C is a subset of C++. \n\n
+C++ language was developed by Bjarne Stroustrup. \n
+C++ supports both structural and object-oriented programming language. \n
+C++ is a superset of C. </string>
+    <string name="cpp_a4">Reference behaves like an alias for an existing variable, i.e., it is a temporary variable. \n
+Reference variable does not require any indirection operator to access the value. A reference variable can be used directly to access the value. \n\n
+The pointer is a variable which stores the address of a variable.\n
+Pointer variable requires an indirection operator to access the value of a variable.</string>
+    <string name="cpp_a5">The class is a user-defined data type. The class is declared with the keyword class. The class contains the data members, and member functions whose access is defined by the three modifiers are private, public and protected. The class defines the type definition of the category of things. It defines a datatype, but it does not define the data it just specifies the structure of data.</string>
+    <string name="cpp_a6">Class \n
+Object \n
+Polymorphism \n
+Encapsulation \n
+Inheritance \n
+Abstraction </string>
+    <string name="cpp_a7">Compile time polymorphism \n
+Runtime polymorphism</string>
+    <string name="cpp_a8">The namespace is a logical division of the code which is designed to stop the naming conflict. \n
+The namespace defines the scope where the identifiers such as variables, class, functions are declared. \n
+The main purpose of using namespace in C++ is to remove the ambiguity. Ambiquity occurs when the different task occurs with the same name.</string>
+    <string name="cpp_a9">A token in C++ can be a keyword, identifier, literal, constant and symbol.</string>
+    <string name="cpp_a10">Bjarne Stroustrup.</string>
+    <string name="cpp_a11">ncrementing or decrementing a pointer: Incrementing a pointer means that we can increment the pointer by the size of a data type to which it points. </string>
+    <string name="cpp_a12">Std is the default namespace standard used in C++.</string>
+    <string name="cpp_a13">C++was discovered in order to cope with the disadvantages of C.</string>
+    <string name="cpp_a14">Delete is used to release a unit of memory, delete[] is used to release an array.</string>
+    <string name="cpp_a15">STL stands for Standard Template Library.</string>
+    <string name="cpp_a16">The Object is the instance of a class. A class provides a blueprint for objects. So you can create an object from a class. The objects of a class are declared with the same sort of declaration that we declare variables of basic types.</string>
+    <string name="cpp_a17">Private \n
+Public \n
+Protected</string>
+    <string name="cpp_a18">OOP is a methodology or paradigm that provides many concepts such as \n
+Class \n
+Object \n
+Polymorphism \n
+Encapsulation \n
+Inheritance \n
+Abstraction </string>
+    <string name="cpp_a19">
+    An Array is a collection of homogeneous elements while a list is a collection of heterogeneous elements. \n
+    Array memory allocation is static and continuous while List memory allocation is dynamic and random. \n
+    In Array, users dont need to keep in track of next memory allocation while In the list, the user has to keep in track of next location where memory is allocated.
+</string>
+    <string name="cpp_a20">
+    new() is a preprocessor while malloc() is a function. \n
+    There is no need to allocate the memory while using "new" but in malloc() you have to use sizeof(). \n
+    "new" initializes the new memory to 0 while malloc() gives random value in the newly allotted memory location. \n
+    The new() operator allocates the memory and calls the constructor for the object initialization and malloc() function allocates the memory but does not call the constructor for the object initialization. \n
+    The new() operator is faster than the malloc() function as operator is faster than the function.
+</string>
+    <string name="cpp_a21">There are two ways: \n
+    By using the DLLs type library. \n
+    Taking a reference to the function from the DLL inst</string>
+    <string name="cpp_a22">Friend function acts as a friend of the class. It can access the private and protected members of the class. The friend function is not a member of the class, but it must be listed in the class definition. The non-member function cannot access the private data of the class. Sometimes, it is necessary for the non-member function to access the data. </string>
+    <string name="cpp_a23">A virtual function is used to replace the implementation provided by the base class. The replacement is always called whenever the object in question is actually of the derived class, even if the object is accessed by a base pointer rather than a derived pointer. \n
+A virtual function is a member function which is present in the base class and redefined by the derived class.</string>
+    <string name="cpp_a24">You can answer this question in three manners: \n\n
+    Never \n
+    Rarely \n
+    If you find that the problem domain cannot be accurately modeled any other way.
+</string>
+    <string name="cpp_a25">A Destructor is used to delete any extra resources allocated by the object. A destructor function is called automatically once the object goes out of the scope.</string>
+    <string name="cpp_a26">It is a type of arithmetical error. It happens when the result of an arithmetical operation been greater than the actual space provided by the system.</string>
+    <string name="cpp_a27">When a single object behaves in many ways is known as overloading. A single object has the same name, but it provides different versions of the same function.</string>
+    <string name="cpp_a28">If you inherit a class into a derived class and provide a definition for one of the base class function again inside the derived class, then this function is called overridden function, and this mechanism is known as function overriding.</string>
+    <string name="cpp_a29">Virtual inheritance facilitates you to create only one copy of each object even if the object appears more than one in the hierarchy.</string>
+    <string name="cpp_a30">A Constructor is a special method that initializes an object. Its name must be same as class name.</string>
+
+    <!--Java-->
+
+    <string name="java_q1">1. What is JAVA?</string>
+    <string name="java_q2">2. What are the features of JAVA?</string>
+    <string name="java_q3">3. How does Java enable high performance?</string>
+    <string name="java_q4">4. Name the Java IDEs?</string>
+    <string name="java_q5">5. What do you mean by Constructor?</string>
+    <string name="java_q6">6. What is meant by the Local variable and the Instance variable?</string>
+    <string name="java_q7">7. What is a Class?</string>
+    <string name="java_q8">8. What is an Object?</string>
+    <string name="java_q9">9. What are the OOPs concepts?</string>
+    <string name="java_q10">10. What is Inheritance?</string>
+    <string name="java_q11">11. What is Encapsulation?</string>
+    <string name="java_q12">12. What is Polymorphism?</string>
+    <string name="java_q13">13. What is meant by Method Overriding?</string>
+    <string name="java_q14">14. What is meant by Overloading?</string>
+    <string name="java_q15">15. What is meant by Interface?</string>
+    <string name="java_q16">16. What is meant by Abstract class?</string>
+    <string name="java_q17">17. Difference between Array and Array List.</string>
+    <string name="java_q18">18. Difference between String, String Builder, and String Buffer.</string>
+    <string name="java_q19">19. Explain about Public and Private access specifiers.</string>
+    <string name="java_q20">20. Difference between Default and Protected access specifiers.</string>
+    <string name="java_q21">21. Difference between HashMap and HashTable.</string>
+    <string name="java_q22">22. Difference between HashSet and TreeSet</string>
+    <string name="java_q23">23. Difference between Abstract class and Interface.</string>
+    <string name="java_q24">24. What is the meaning of Collections in Java?</string>
+    <string name="java_q25">25. Who was the creator of JAVA?</string>
+
+    <string name="java_a1">Java is a high-level programming language and is platform-independent. \n
+Java is a collection of objects. It was developed by Sun Microsystems. There are a lot of applications, websites, and games that are developed using Java.</string>
+    <string name="java_a2">
+    Features of Java \n
+        Object-oriented \n
+        Inheritance \n
+        Encapsulation \n
+        Polymorphism \n
+        Abstraction
+</string>
+    <string name="java_a3">Java uses Just In Time compiler to enable high performance. It is used to convert the instructions into bytecodes.</string>
+    <string name="java_a4">Eclipse and NetBeans are the IDEs of JAVA.</string>
+    <string name="java_a5">When a new object is created in a program a constructor gets invoked corresponding to the class. \n
+The constructor is a method which has the same name as the class name. \n
+If a user doesn’t create a constructor implicitly a default constructor will be created. \n
+The constructor can be overloaded.</string>
+    <string name="java_a6">Local variables are defined in the method and scope of the variables that exist inside the method itself. \n
+Instance variable is defined inside the class and outside the method and the scope of the variables exists throughout the class.</string>
+    <string name="java_a7">All Java codes are defined in a Class. It has variables and methods.</string>
+    <string name="java_a8">An instance of a class is called an object. The object has state and behavior.</string>
+    <string name="java_a9">OOP concepts \n
+        Object-oriented \n
+        Inheritance \n
+        Encapsulation \n
+        Polymorphism \n
+        Abstraction</string>
+    <string name="java_a10">Inheritance means one class can extend to another class. So that the codes can be reused from one class to another class. The existing class is known as the Super class whereas the derived class is known as a sub class.</string>
+    <string name="java_a11">Purpose of Encapsulation: \n \n
+    Protects the code from others. \n
+    Code maintainability.
+</string>
+    <string name="java_a12">Polymorphism means many forms. \n
+A single object can refer to the super-class or sub-class depending on the reference type which is called polymorphism.</string>
+    <string name="java_a13">Method overriding happens if the sub-class method satisfies the below conditions with the Super-class method \n\n
+    Method name should be the same \n
+    The argument should be the same \n
+    Return type should also be the same
+</string>
+    <string name="java_a14">Method overloading happens for different classes or within the same class.</string>
+    <string name="java_a15">Multiple inheritances cannot be achieved in java. To overcome this problem the Interface concept is introduced. \n
+An interface is a template which has only method declarations and not the method implementation.</string>
+    <string name="java_a16">We can create the Abstract class by using the Abstract keyword before the class name. An abstract class can have both Abstract methods and Non-abstract methods that are a concrete class.</string>
+    <string name="java_a17">Array : \n
+Size should be given at the time of array declaration. \n
+String[] name = new String[2] \n\n
+Array List : \n
+Size may not be required. It changes the size dynamically. \n
+ArrayList name = new ArrayList </string>
+    <string name="java_a18">String: String variables are stored in a constant string pool. Once the string reference changes the old value that exists in the constant string pool, it cannot be erased. \n\n
+String Buffer:  Here string values are stored in a stack. If the values are changed then the new value replaces the older value. \n
+    The string buffer is synchronized which is thread-safe.\n\n
+String Builder: This is the same as String Buffer except for the String Builder which is not threaded safely that is not synchronized. So obviously the performance is fast.</string>
+    <string name="java_a19">Public members are visible in the same package as well as the outside package that is for other packages. \n
+Private members are visible in the same class only and not for the other classes in the same package as well as classes in the outside packages.</string>
+    <string name="java_a20">Methods and variables declared in a class without any access specifiers are called default. \n
+Protected is the same as Default but if a class extends then it is visible even if it is outside the package.</string>
+    <string name="java_a21">HashMap : \n
+Methods are not synchronized \n
+Not thread safety \n
+Iterator is used to iterate the values \n\n
+HashTable : \n
+Key methods are synchronized \n
+Thread safety \n
+Enumerator is used to iterate the values</string>
+    <string name="java_a22">HashSet : \n
+Inserted elements are in random order \n
+Can able to store null objects \n
+Performance is fast \n\n
+TreeSet : \n
+Maintains the elements in the sorted order \n
+Could not store null objects \n
+Performance is slow</string>
+    <string name="java_a23">Abstract Class: \n
+    Abstract classes have a default constructor and it is called whenever the concrete subclass is instantiated. \n\n
+Interface: \n
+    It does not have any constructor and could not be instantiated.</string>
+    <string name="java_a24">Collection is a framework that is designed to store the objects and manipulate the design to store the objects.\n\n
+Collections are used to perform the following operations:\n
+    Searching \n
+    Sorting \n
+    Manipulation \n
+    Insertion \n
+    Deletion
+</string>
+    <string name="java_a25">James Gosling</string>
+
+    <!--JS-->
+
+    <string name="javascript_q1">1. What is JavaScript?</string>
+    <string name="javascript_q2">2. Enumerate the differences between Java and JavaScript?</string>
+    <string name="javascript_q3">3. What are JavaScript Data Types?</string>
+    <string name="javascript_q4">4. What is the use of isNaN function?</string>
+    <string name="javascript_q5">5. Which is faster between JavaScript and an ASP script?</string>
+    <string name="javascript_q6">6. Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero. </string>
+    <string name="javascript_q7">7. Is it possible to break JavaScript Code into several lines?</string>
+    <string name="javascript_q8">8. Which company developed JavaScript?</string>
+    <string name="javascript_q9">9. What are undeclared and undefined variables?</string>
+    <string name="javascript_q10">10. What are global variables? </string>
+    <string name="javascript_q11">11. What is a prompt box?</string>
+    <string name="javascript_q12">12. What is THIS keyword in JavaScript?</string>
+    <string name="javascript_q13">13. What is the working of timers in JavaScript? </string>
+    <string name="javascript_q14">14. Which symbol is used for comments in Javascript?</string>
+    <string name="javascript_q15">15. What is the difference between ViewState and SessionState?</string>
+    <string name="javascript_q16">16. What is === operator?</string>
+    <string name="javascript_q17">17. How you can submit a form using JavaScript?</string>
+    <string name="javascript_q18">18. Does JavaScript support automatic type conversion?</string>
+    <string name="javascript_q19">19. How to read and write a file using JavaScript?</string>
+    <string name="javascript_q20">20. What are all the looping structures in JavaScript?</string>
+    <string name="javascript_q21">21. Difference between == and === </string>
+    <string name="javascript_q22">22. What are all the types of Pop up boxes available in JavaScript?</string>
+    <string name="javascript_q23">23. What is the difference between an alert box and a confirmation box?</string>
+    <string name="javascript_q24">24. What are JavaScript Cookies?</string>
+    <string name="javascript_q25">25. What is break and continue statements?</string>
+
+    <string name="javascript_a1">JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers. JavaScript is also an Object-based Programming language .</string>
+    <string name="javascript_a2">Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent. Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language.</string>
+    <string name="javascript_a3">    Number \n
+    String \n
+    Boolean \n
+    Object \n
+    Undefined</string>
+    <string name="javascript_a4">isNan function returns true if the argument is not a number; otherwise, it is false. </string>
+    <string name="javascript_a5">JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute. On the other hand, ASP is a server-side language and hence is always slower than JavaScript. Javascript now is also a server-side language (nodejs). </string>
+    <string name="javascript_a6">Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero. </string>
+    <string name="javascript_a7">Breaking within a string statement can be done by using a backslash (\) at the end of the first line. </string>
+    <string name="javascript_a8">Netscape is the software company that developed JavaScript. </string>
+    <string name="javascript_a9">Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered. \n
+Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned. </string>
+    <string name="javascript_a10">Global variables are available throughout the length of the code so that it has no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared. </string>
+    <string name="javascript_a11">A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number. </string>
+    <string name="javascript_a12">THIS keyword refers to the object from where it was called. </string>
+    <string name="javascript_a13">Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval. </string>
+    <string name="javascript_a14">// for Single line comments and \n
+/* Multi \n
+Line \n
+Comment \n
+*/ </string>
+    <string name="javascript_a15">ViewState is specific to a page in a session. \n
+SessionState is specific to user-specific data that can be accessed across all web application pages.</string>
+    <string name="javascript_a16">=== is called a strict equality operator, which returns true when the two operands have the same value without conversion. </string>
+    <string name="javascript_a17">document.form[0].submit(); \n
+document.form[0].submit();</string>
+    <string name="javascript_a18">Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers </string>
+    <string name="javascript_a19">There are two ways to read and write a file using JavaScript \n\n
+    Using JavaScript extensions \n
+    Using a web page and Active X objects</string>
+    <string name="javascript_a20">For loop, While loop and Do-while loop</string>
+    <string name="javascript_a21"> == checks only for equality in value, whereas === is a stricter equality test and returns false if either the value or the type of the two variables are different.</string>
+    <string name="javascript_a22"> Alert, Confirm and Prompt</string>
+    <string name="javascript_a23">An alert box displays only one button, which is the OK button. \n
+But a Confirmation box displays two buttons, namely OK and cancel. </string>
+    <string name="javascript_a24">Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. Examples could be User Name details and shopping cart information from previous visits. </string>
+    <string name="javascript_a25">Break statement exits from the current loop. \n
+Continue statement continues with next statement of the loop. </string>
+
+
+    <!--Python-->
+
+    <string name="python_q1">1. What is Python? What are the benefits of using Python?</string>
+    <string name="python_q2">2. What is PEP 8?</string>
+    <string name="python_q3">3. What is pickling and unpickling?</string>
+    <string name="python_q4">4. How is Python interpreted?</string>
+    <string name="python_q5">5. How is memory managed in Python?</string>
+    <string name="python_q6">6. What are the tools that help to find bugs or perform the static analysis?</string>
+    <string name="python_q7">7. What are Python decorators?</string>
+    <string name="python_q8">8. What is the difference between list and tuple?</string>
+    <string name="python_q9">9. How are arguments passed by value or by reference?</string>
+    <string name="python_q10">10. What is Dict and List comprehensions are?</string>
+    <string name="python_q11">11. What are built-in type does python provides?</string>
+    <string name="python_q12">12. Explain namespace in Python?</string>
+    <string name="python_q13">13. What is lambda in Python?</string>
+    <string name="python_q14">14. Why lambda forms in python do not have statements?</string>
+    <string name="python_q15">15. Explain pass in Python</string>
+    <string name="python_q16">16. In Python what are iterators?</string>
+    <string name="python_q17">17. What is the unit test in Python?</string>
+    <string name="python_q18">18. Explain slicing in Python?</string>
+    <string name="python_q19">19. What are generators in Python?</string>
+    <string name="python_q20">20. What is docstring in Python?</string>
+    <string name="python_q21">21. How can you copy an object in Python?</string>
+    <string name="python_q22">22. What is negative index in Python?</string>
+    <string name="python_q23">23. How can you convert a number to a string?</string>
+    <string name="python_q24">24. What is the difference between xrange and range?</string>
+    <string name="python_q25">25. What is module and package in Python?</string>
+    <string name="python_q26">26. What are the rules for local and global variables in Python?</string>
+    <string name="python_q27">27. How can you share global variables across modules?</string>
+    <string name="python_q28">28. Explain how to delete a file in Python?</string>
+    <string name="python_q29">29. Explain how can you generate random numbers in Python?</string>
+    <string name="python_q30">30. What is the difference between Django, Pyramid, and Flask?</string>
+
+    <string name="python_a1">Python is a programming language with objects, modules, threads, exceptions, and automatic memory management. The benefits of pythons are that it is simple and easy, portable, extensible, build-in data structure, and it is open-source. </string>
+    <string name="python_a2">PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable. </string>
+    <string name="python_a3">Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function. This process is called pickling. While the process of retrieving original Python objects from the stored string representation is called unpickling. </string>
+    <string name="python_a4">Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed. </string>
+    <string name="python_a5">Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap, and the interpreter takes care of this Python private heap. </string>
+    <string name="python_a6">PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard. </string>
+    <string name="python_a7">A Python decorator is a specific change that we make in Python syntax to alter functions easily. </string>
+    <string name="python_a8">The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed, for example., as a key for dictionaries. </string>
+    <string name="python_a9">Everything in Python is an object, and all variables hold references to the objects. The reference values are according to the functions. Therefore, you cannot change the value of the references. However, you can change the objects if it is mutable. </string>
+    <string name="python_a10">They are syntax constructions to ease the creation of a Dictionary or List based on existing iterable. </string>
+    <string name="python_a11">Python provides two built-in types: 1) Mutable and 2) Immutable.</string>
+    <string name="python_a12">In Python, every name introduced has a place where it lives and can be hooked for. This is known as a namespace. It is like a box where a variable name is mapped to the object placed. Whenever the variable is searched out, this box will be searched to get the corresponding object. </string>
+    <string name="python_a13">It is a single expression anonymous function often used as inline function.</string>
+    <string name="python_a14">A lambda form in python does not have statements as it is used to make new function object and then return them at runtime. </string>
+    <string name="python_a15">Pass means no-operation Python statement, or in other words, it is a place holder in a compound statement, where there should be a blank left, and nothing has to be written there. </string>
+    <string name="python_a16">In Python, iterators are used to iterate a group of elements, containers like a list. </string>
+    <string name="python_a17">A unit testing framework in Python is known as unittest. It supports sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections, etc. </string>
+    <string name="python_a18">A mechanism to select a range of items from sequence types like list, tuple, strings etc., is known as slicing. </string>
+    <string name="python_a19">The way of implementing iterators are known as generators. It is a normal function except that it yields expression in the function. </string>
+    <string name="python_a20">A Python documentation string is known as docstring, it is a way of documenting Python functions, modules, and classes. </string>
+    <string name="python_a21">To copy an object in Python, you can try a copy.copy () or copy.deepcopy() for the general case. You cannot copy all objects but most of them. </string>
+    <string name="python_a22">Python sequences can be index in positive and negative numbers. For positive index, 0 is the first index, 1 is the second index, and so forth. For the negative index, (-1) is the last index, and (-2) is the second last index, and so forth. </string>
+    <string name="python_a23">In order to convert a number into a string, use the inbuilt function str(). If you want a octal or hexadecimal representation, use the inbuilt function oct() or hex(). </string>
+    <string name="python_a24">Xrange returns the xrange object while range returns the list and uses the same memory and no matter what the range size is. </string>
+    <string name="python_a25">In Python, module is the way to structure a program. Each Python program file is a module, which imports other modules like objects and attributes. \n
+The folder of Python program is a package of modules. A package can have modules or subfolders. </string>
+    <string name="python_a26">Local variables: If a variable is assigned a new value anywhere within the functions body, its assumed to be local. \n
+Global variables: Those variables that are only referenced inside a function are implicitly global. </string>
+    <string name="python_a27">To share global variables across modules within a single program, create a special module. Import the config module in all modules of your application. The module will be available as a global variable across modules. </string>
+    <string name="python_a28">By using a command os.remove (filename) or os.unlink(filename) </string>
+    <string name="python_a29">To generate random numbers in Python, you need to import command as \n\n
+import random \n
+random.random()
+</string>
+    <string name="python_a30">Flask is a microframework primarily build for a small application with simpler requirements. In a flask, you do not have to use external libraries. Flask is ready to use. \n
+Pyramids are built for larger applications. It provides flexibility and lets the developer use the right tools for their project. The developer can choose the database, URL structure, templating style, and more. Like Pyramid, Django can also be used for larger applications. It includes an ORM. </string>
+
+    <!--SQL-->
+
+    <string name="sql_q1">1. What is SQL?</string>
+    <string name="sql_q2">2. When SQL appeared?</string>
+    <string name="sql_q3">3. What are the usages of SQL?</string>
+    <string name="sql_q4">4. Does SQL support programming?</string>
+    <string name="sql_q5">5. What are the subsets of SQL?</string>
+    <string name="sql_q6">6. What is a Data Definition Language?</string>
+    <string name="sql_q7">7. What is a Data Manipulation Language?</string>
+    <string name="sql_q8">8. What is Data Control Language?</string>
+    <string name="sql_q9">9. What are tables and fields in the database?</string>
+    <string name="sql_q10">10. What is a primary key?</string>
+    <string name="sql_q11">11. What is a foreign key?</string>
+    <string name="sql_q12">12. What is a unique key?</string>
+    <string name="sql_q13">13. What is the difference between primary key and unique key?</string>
+    <string name="sql_q14">14. What is a Database?</string>
+    <string name="sql_q15">15. What is DBMS?</string>
+    <string name="sql_q16">16. What are the different types of database management systems?</string>
+    <string name="sql_q17">17. What is RDBMS?</string>
+    <string name="sql_q18">18. What is Normalization in a Database?</string>
+    <string name="sql_q19">19. What is the primary use of Normalization?</string>
+    <string name="sql_q20">20. What is view in SQL?</string>
+    <string name="sql_q21">21. What is an Index in SQL?</string>
+    <string name="sql_q22">22. What is the difference between SQL, MySQL and SQL Server?</string>
+    <string name="sql_q23">23. Which are the most commonly used SQL joins?</string>
+    <string name="sql_q24">24. What is a TRIGGER in SQL?</string>
+    <string name="sql_q25">25. What is a constraint? Tell me about its various levels.</string>
+
+    <string name="sql_a1">SQL stands for the Structured Query Language. SQL is a standard query language used for maintaining the relational database and perform many different operations of data manipulation on the data. It is a database language used for database creation, deletion, fetching rows and modifying rows, etc.</string>
+    <string name="sql_a2">It appeared in 1974. SQL is one of the often used languages for maintaining the relational database. SQL. In 1986 SQL become the standard of American National Standards Institute (ANSI) and ISO(International Organization for Standardization) in 1987.</string>
+    <string name="sql_a3">To inserts records in a database \n
+To updates records in a database \n
+To delete records from a database \n
+To create new database \n
+To create new tables in a database</string>
+    <string name="sql_a4">SQL refers to the Standard Query Language, which is not actually the programming language. SQL does not have a loop, Conditional statement, logical operations, it can not be used for anything other than data manipulation. It is used like commanding (Query) language to access databases. The primary purpose of SQL is to retrieve, manipulate, update and perform complex operations like joins on the data present in the database.</string>
+    <string name="sql_a5">Data definition language (DDL)\n
+Data manipulation language (DML) \n
+Data control language (DCL)</string>
+    <string name="sql_a6">Data definition language (DDL) is the subset of the database which defines the data structure of the database in the initial stage when the database is about to be created. It consists of the following commands: CREATE, ALTER and DELETE database objects such as schema, tables, view, sequence, etc.</string>
+    <string name="sql_a7">Data manipulation language makes the user able to retrieve and manipulate data. It is used to perform the following operations. \n
+    Insert data into database through INSERT command. \n
+    Retrieve data from the database through SELECT command. \n
+    Update data in the database through UPDATE command. \n
+    Delete data from the database through DELETE command.
+</string>
+    <string name="sql_a8">Data control language allows you to control access to the database. DCL is the only subset of the database which decides that what part of the database should be accessed by which user at what point of time. It includes two commands GRANT and REVOKE. \n
+GRANT: to grant the specific user to perform a particular task \n
+REVOKE: to cancel previously denied or granted permissions.</string>
+    <string name="sql_a9">A table is a set of organized data. It has rows and columns. Rows here refers to the tuples which represent the simple data item and columns are the attribute of the data items present in particular row. \n
+A table contains a specified number of the column called fields</string>
+    <string name="sql_a10">A primary key is a field or the combination of fields which uniquely specify a row. The Primary key is a special kind of unique key. Primary key values cannot be NULL. For example, the Social Security Number can be treated as the primary key for any individual.</string>
+    <string name="sql_a11">A foreign key is specified as a key which is related to the primary key of another table. A relationship needs to be created between two tables by referencing foreign key with the primary key of another table. Foreign key acts like a cross-reference between tables as it refers to the primary key of other table and the primary key-foreign key relationship is a very crucial relationship as it maintains the ACID properties of database sometimes.</string>
+    <string name="sql_a12">Unique key constraint uniquely identifies each record in the database. This key provides uniqueness for the column or set of columns.</string>
+    <string name="sql_a13">Primary key and unique key both are the essential constraints of the SQL, but there is a small difference between them. \n
+Primary key carries unique value but the field of the primary key cannot be Null on the other hand unique key also carry unique value but it can have a single Null value field.</string>
+    <string name="sql_a14">A Database is an organized form of data. The database is the electronic system which makes data access, data manipulation, data retrieval, data storing and data management very easy and structured. Almost every organization uses the database for storing the data due to its easily accessible and high operational ease. </string>
+    <string name="sql_a15">DBMS stands for Database Management System. This is a program which is used to control them. It is like a File Manager that manages data in a database rather than saving it in file systems. \n
+Database management system is an interface between the database and the user. It makes the data retrieval, data access easier. </string>
+    <string name="sql_a16">There are four types of database: \n
+    Hierarchical databases (DBMS) \n
+    Relational databases (RDBMS) \n
+    Network databases (IDMS) \n
+    Object-oriented databases
+</string>
+    <string name="sql_a17">RDBMS stands for Relational Database Management System. It is a database management system based on a relational model. RDBMS stores the data into the collection of tables and links those table using the relational operators easily whenever required. It facilitates you to manipulate the data stored in the tables by using relational operators. Examples of the relational database management system are Microsoft Access, MySQL, SQLServer, Oracle database, etc.</string>
+    <string name="sql_a18">Normalization is used to minimize redundancy and dependency by organizing fields and table of a database.</string>
+    <string name="sql_a19">Normalization is mainly used to add, delete or modify a field that can be made in a single table. The primary use of Normalization is to remove redundancy and to remove the insert, delete and update distractions. Normalization breaks the table into small partitions and then link them using different relationships so that it will avoid the chances of redundancy.</string>
+    <string name="sql_a20">A view is a virtual table which contains a subset of data within a table. Views are not originally present, and it takes less space to store. A view can have data from one or more tables combined and it depends on the relationship. </string>
+    <string name="sql_a21">SQL indexes are the medium of reducing the cost of the query as the high cost of the query will lead to the fall in the performance of the query. An index is used to increase the performance and allow faster retrieval of records from the table.</string>
+    <string name="sql_a22">SQL or Structured Query Language is a language which is used to communicate with a relational database. It provides a way to manipulate and create databases. On the other hand, MySQL and Microsoft SQL Server both are relational database management systems that use SQL as their standard relational database language. \n\n
+MySQL is available for free as it is open source whereas SQL server is not an open source software.</string>
+    <string name="sql_a23">Most commonly used SQL joins are INNER JOIN and LEFT OUTER JOIN and RIGHT OUTER JOIN.</string>
+    <string name="sql_a24">A trigger allows you to execute a batch of SQL code when an insert, update or delete command is run against a specific table as TRIGGER is said to be the set of actions that are performed whenever commands like insert, update or delete are given through queries.</string>
+    <string name="sql_a25">Constraints are the rules and regulations which are applied to the table column which enforces yours to store valid data and prevents users to store irrelevant data. There are two levels : \n\n
+    column level constraint \n
+    table level constraint
+</string>
+
+    <!--CN-->
+    <string name="cn_q1">1. What is the network?</string>
+    <string name="cn_q2">2. What do you mean by network topology?</string>
+    <string name="cn_q3">3. What are the advantages of Distributed Processing?</string>
+    <string name="cn_q4">4. What is the criteria to check the network reliability?</string>
+    <string name="cn_q5">5. Which are the different factors that affect the security of a network?</string>
+    <string name="cn_q6">6. Which are the different factors that affect the reliability of a network?</string>
+    <string name="cn_q7">7. Which are the different factors that affect the performance of a network?</string>
+    <string name="cn_q8">8. What makes a network effective and efficient?</string>
+    <string name="cn_q9">9. What is bandwidth?</string>
+    <string name="cn_q10">10. What is a node and link?</string>
+    <string name="cn_q11">11. What is a gateway? Is there any difference between a gateway and router?</string>
+    <string name="cn_q12">12. What is DNS?</string>
+    <string name="cn_q13">13. What is DNS forwarder?</string>
+    <string name="cn_q14">14. What is NIC?</string>
+    <string name="cn_q15">15. What is the meaning of 10Base-T?</string>
+    <string name="cn_q16">16. What is NOS in computer networking?</string>
+    <string name="cn_q17">17. What are the different types of networks?</string>
+    <string name="cn_q18">18. What is POP3?</string>
+    <string name="cn_q19">19. What do you understand by MAC address?</string>
+    <string name="cn_q20">20. What is IP address?</string>
+    <string name="cn_q21">21. What is private IP address?</string>
+    <string name="cn_q22">22. What is public IP address?</string>
+    <string name="cn_q23">23. What is APIPA?</string>
+    <string name="cn_q24">24. What is the full form of ADS?</string>
+    <string name="cn_q25">25. What is RAID?</string>
+    <string name="cn_q26">26. What is anonymous FTP?</string>
+    <string name="cn_q27">27. What is protocol?</string>
+    <string name="cn_q28">28. What are the main elements of a protocol?</string>
+    <string name="cn_q29">29. What is the Domain Name System?</string>
+    <string name="cn_q30">30. What is link?</string>
+    <string name="cn_q31">31. How many layers are in OSI reference model?</string>
+    <string name="cn_q32">32. What is the usage of OSI physical layer?</string>
+    <string name="cn_q33">33. Explain the functionality of OSI session layer?</string>
+    <string name="cn_q34">34. What is the maximum length allowed for a UTP cable?</string>
+    <string name="cn_q35">35. What is RIP?</string>
+    <string name="cn_q36">36. What do you understand by TCP/IP?</string>
+    <string name="cn_q37">37. What is netstat?</string>
+    <string name="cn_q38">38. What do you understand by ping command?</string>
+    <string name="cn_q39">39. What is Sneakernet?</string>
+    <string name="cn_q40">40. Explain the peer-peer process?</string>
+    <string name="cn_q41">41. What is a congested switch?</string>
+    <string name="cn_q42">42. What is multiplexing in networking?</string>
+    <string name="cn_q43">43. What are the advantages of address sharing?</string>
+    <string name="cn_q44">44. What is RSA Algorithm?</string>
+    <string name="cn_q45">45. How many layers are in TCP/IP?</string>
+
+
+    <string name="cn_a1">A network is a set of devices that are connected with a physical media link. In a network, two or more nodes are connected by a physical link or two or more networks are connected by one or more nodes. \n  A network is a collection of devices connected to each other to allow the sharing of data. \n  Example of a network is an internet. An internet connects the millions of people across the world. </string>
+    <string name="cn_a2">Network topology specifies the layout of a computer network. It shows how devices and cables are connected to each other.</string>
+    <string name="cn_a3">
+    Secure \n
+    Support Encapsulation \n
+    Distributed database \n
+    Faster Problem solving \n
+    Security through redundancy \n
+    Collaborative Processing
+</string>
+    <string name="cn_a4">Network reliability means the ability of the network to carry out the desired operation through a network such as communication through a network. \n
+Network reliability plays a significant role in the network functionality. The network monitoring systems and devices are the essential requirements for making the network reliable.The network monitoring system identifies the problems that are occurred in the network while the network devices ensure that data should reach the appropriate destination.</string>
+    <string name="cn_a5">
+    Unauthorized Access \n
+    Viruses
+</string>
+    <string name="cn_a6">
+    Frequency of failure \n
+    Recovery time of a network after a failure
+</string>
+    <string name="cn_a7">
+    Large number of users \n
+    Transmission medium types \n
+    Hardware \n
+    Software
+</string>
+    <string name="cn_a8">
+    Performance: : performance can be measured in many ways like transmit time and response time. \n
+    Reliability: reliability is measured by frequency of failure. \n
+    Robustness: robustness specifies the quality or condition of being strong and in good condition. \n
+    Security: It specifies how to protect data from unauthorized access and viruses.
+</string>
+    <string name="cn_a9">Every signal has a limit of upper range frequency and lower range frequency. The range of limit of network between its upper and lower frequency is called bandwidth.</string>
+    <string name="cn_a10">A network is a connection setup of two or more computers directly connected by some physical mediums like optical fiber or coaxial cable. This physical medium of connection is known as a link, and the computers that it is connected are known as nodes.</string>
+    <string name="cn_a11">A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network.\n
+Differences between gateway and router: \n
+A router sends the data between two similar networks while gateway sends the data between two dissimilar networks.</string>
+    <string name="cn_a12">DNS is an acronym stands for Domain Name System. \n
+    It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate to resource easily over a network. \n
+    DNS is an internet which maps the domain names to their associated IP addresses.
+</string>
+    <string name="cn_a13">A forwarder is used with DNS server when it receives DNS queries that cannot be resolved quickly. So it forwards those requests to external DNS servers for resolution. \n
+A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.</string>
+    <string name="cn_a14">
+    NIC stands for Network Interface Card. It is a peripheral card attached to the PC to connect to a network. Every NIC has its own MAC address that identifies the PC on the network. \n
+    It provides a wireless connection to a local area network. \n
+    NICs were mainly used in desktop computers.
+</string>
+    <string name="cn_a15">It is used to specify data transfer rate. In 10Base-T, 10 specify the data transfer rate, i.e., 10Mbps. The word Base specifies the baseband as opposed to broadband. T specifies the type of the cable which is a twisted pair.</string>
+    <string name="cn_a16">
+    NOS stands for Network Operating System. It is specialized software which is used to provide network connectivity to a computer to make communication possible with other computers and connected devices. \n
+    NOS is the software which allows the device to communicate, share files with other devices.\n
+    The first network operating system was Novel NetWare released in 1983. Some other examples of NOS are Windows 2000, Windows XP, Linux, etc.
+</string>
+    <string name="cn_a17">
+    PAN (Personal Area Network) \n
+    LAN (Local Area Network) \n
+    HAN (House Area Network) \n
+    CAN (Campus Area Network) \n
+    MAN (Metropolitan Area Network) \n
+    WAN (Wide Area Network) \n
+    GAN (Global Area Network)
+</string>
+    <string name="cn_a18">POP3 stands for Post Office Protocol version3. POP is responsible for accessing the mail service on a client machine. POP3 works on two models such as Delete mode and Keep mode.</string>
+    <string name="cn_a19">MAC stands for Media Access Control. It is the address of the device at the Media Access Control Layer of Network Architecture. It is a unique address means no two devices can have same MAC addresses.</string>
+    <string name="cn_a20">IP address is a unique 32 bit software address of a computer in a network system.</string>
+    <string name="cn_a21">There are three ranges of IP addresses that have been reserved for IP addresses. They are not valid for use on the internet. If you want to access internet on these private IPs, you must have to use proxy server or NAT server</string>
+    <string name="cn_a22">A public IP address is an address taken by the Internet Service Provider which facilitates you to communication on the internet.</string>
+    <string name="cn_a23">APIPA is an acronym stands for Automatic Private IP Addressing. This feature is generally found in Microsoft operating system.</string>
+    <string name="cn_a24">ADS stands for Active Directory Structure. \n
+ADS is a microsoft technology used to manage the computers and other devices.\n
+ADS allows the network administrators to manage the domains, users and objects within the network.</string>
+    <string name="cn_a25">RAID is a method to provide Fault Tolerance by using multiple Hard Disc Drives.</string>
+    <string name="cn_a26">Anonymous FTP is used to grant users access to files in public servers. Users which are allowed access to data in these servers do not need to identify themselves, but instead log in as an anonymous guest.
+</string>
+    <string name="cn_a27">A protocol is a set of rules which is used to govern all the aspects of information communication.</string>
+    <string name="cn_a28">Syntax \n
+Semantics \n
+Timing</string>
+    <string name="cn_a29">There are two types of client/server programs. First is directly used by the users and the second supports application programs. \n
+The Domain Name System is the second type supporting program that is used by other programs such as to find the IP address of an e-mail recipient.</string>
+    <string name="cn_a30">A link is connectivity between two devices which includes the cables and protocols used in order to make communication between devices.</string>
+    <string name="cn_a31">There are 7 layers in the OSI reference model. \n
+1. Physical Layer \n
+2. DataLink Layer \n
+3. Network Layer \n
+4. Transport Layer \n
+5. Session Layer \n
+6. Presentation Layer \n
+7. Application Layer
+</string>
+    <string name="cn_a32">The OSI physical layer is used to convert data bits into electrical signals and vice versa. On this layer, network devices and cable types are considered and setup.</string>
+    <string name="cn_a33">OSI session layer provides the protocols and means for two devices on the network to communicate with each other by holding a session. This layer is responsible for setting up the session, managing information exchange during the session, and tear-down process upon termination of the session.</string>
+    <string name="cn_a34">The maximum length of UTP cable is 90 to 100 meters.</string>
+    <string name="cn_a35">RIP stands for Routing Information Protocol. It is accessed by the routers to send data from one network to another. \n
+RIP is a dynamic protocol which is used to find the best route from source to the destination over a network by using the hop count algorithm.\n
+Routers use this protocol to exchange the network topology information.</string>
+    <string name="cn_a36">TCP/IP is short for Transmission Control Protocol /Internet protocol. It is a set of protocol layers that is designed for exchanging data on different types of networks.</string>
+    <string name="cn_a37">The netstat is a command line utility program. It gives useful information about the current TCP/IP setting of a connection.</string>
+    <string name="cn_a38">The ping is a utility program that allows you to check the connectivity between the network devices. You can ping devices using its IP address or name.</string>
+    <string name="cn_a39">Sneakernet is the earliest form of networking where the data is physically transported using removable media.</string>
+    <string name="cn_a40">The processes on each machine that communicate at a given layer are called peer-peer process.</string>
+    <string name="cn_a41">A switch receives packets faster than the shared link. It can accommodate and stores in its memory, for an extended period of time, then the switch will eventually run out of buffer space, and some packets will have to be dropped. This state is called a congested state.</string>
+    <string name="cn_a42">In Networking, multiplexing is the set of techniques that is used to allow the simultaneous transmission of multiple signals across a single data link.</string>
+    <string name="cn_a43">Address sharing provides security benefit instead of routing. That is because host PCs on the Internet can only see the public IP address of the external interface on the computer that provides address translation and not the private IP addresses on the internal network.</string>
+    <string name="cn_a44">RSA is short for Rivest Shamir Adleman algorithm. It is mostly used for public key encryption.</string>
+    <string name="cn_a45">There are basic 4 layers in TCP/IP: \n
+    Application Layer \n
+    Transport Layer \n
+    Internet Layer \n
+    Network Layer
+</string>
+
+    <!--DBMS-->
+    <string name="dbms_q1">1. What is DBMS?</string>
+    <string name="dbms_q2">2. What is a database?</string>
+    <string name="dbms_q3">3. What is a database system?</string>
+    <string name="dbms_q4">4. What are the advantages of DBMS?</string>
+    <string name="dbms_q5">5. What is a checkpoint in DBMS?</string>
+    <string name="dbms_q6">6. When does checkpoint occur in DBMS?</string>
+    <string name="dbms_q7">7. What do you mean by transparent DBMS?</string>
+    <string name="dbms_q8">8. What are the unary operations in Relational Algebra?</string>
+    <string name="dbms_q9">9. What is RDBMS?</string>
+    <string name="dbms_q10">10. How many types of database languages are?</string>
+    <string name="dbms_q11">11. What do you understand by Data Model?</string>
+    <string name="dbms_q12">12. Define a Relation Schema and a Relation.</string>
+    <string name="dbms_q13">13. What is a degree of Relation?</string>
+    <string name="dbms_q14">14. What is the Relationship?</string>
+    <string name="dbms_q15">15. What are the disadvantages of file processing systems?</string>
+    <string name="dbms_q16">16. What is data abstraction in DBMS?</string>
+    <string name="dbms_q17">17. What are the three levels of data abstraction?</string>
+    <string name="dbms_q18">18. What is DDL (Data Definition Language)?</string>
+    <string name="dbms_q19">19. What is DML (Data Manipulation Language)?</string>
+    <string name="dbms_q20">20. Explain the functionality of DML Compiler.</string>
+    <string name="dbms_q21">21. What is Relational Algebra?</string>
+    <string name="dbms_q22">22. What is Relational Calculus?</string>
+    <string name="dbms_q23">23. What do you understand by query optimization?</string>
+    <string name="dbms_q24">24. What do you mean by durability in DBMS?</string>
+    <string name="dbms_q25">25. What is normalization?</string>
+    <string name="dbms_q26">26. What is Denormalization?</string>
+    <string name="dbms_q27">27. What is functional Dependency?</string>
+    <string name="dbms_q28">28. What is the E-R model?</string>
+    <string name="dbms_q29">29. What is an entity?</string>
+    <string name="dbms_q30">30. What is an Entity type?</string>
+    <string name="dbms_q31">31. What is an Entity set?</string>
+    <string name="dbms_q32">32. What is an Extension of entity type?</string>
+    <string name="dbms_q33">33. What is Weak Entity set?</string>
+    <string name="dbms_q34">34. What is an attribute?</string>
+    <string name="dbms_q35">35. What are the integrity rules in DBMS?</string>
+    <string name="dbms_q36">36. What do you mean by extension and intension?</string>
+    <string name="dbms_q37">37. What is System R? How many of its two major subsystems?</string>
+    <string name="dbms_q38">38. What is Data Independence?</string>
+    <string name="dbms_q39">39. What are the three levels of data abstraction?</string>
+    <string name="dbms_q40">40. What is Join?</string>
+    <string name="dbms_q41">41. What is 1NF?</string>
+    <string name="dbms_q42">42. What is 2NF?</string>
+    <string name="dbms_q43">43. What is 3NF?</string>
+    <string name="dbms_q44">44. What is BCNF?</string>
+    <string name="dbms_q45">45. What are ACID properties?</string>
+    <string name="dbms_q46">46. What is stored procedure?</string>
+    <string name="dbms_q47">47. What is the difference between a DELETE command and TRUNCATE command?</string>
+    <string name="dbms_q48">48. What is 2-Tier architecture?</string>
+    <string name="dbms_q49">49. What is the 3-Tier architecture?</string>
+    <string name="dbms_q50">50. Describe the types of keys?</string>
+
+    <string name="dbms_a1">DBMS is a collection of programs that facilitates users to create and maintain a database. In other words, DBMS provides us an interface or tool for performing different operations such as the creation of a database, inserting data into it, deleting data from it, updating the data, etc. DBMS is a software in which data is stored in a more secure way as compared to the file-based system.</string>
+    <string name="dbms_a2">A Database is a logical, consistent and organized collection of data that it can easily be accessed, managed and updated. Databases, also known as electronic databases are structured to provide the facility of creation, insertion, updating of the data efficiently and are stored in the form of a file or set of files, on the magnetic disk, tapes and another sort of secondary devices. Database mostly consists of the objects (tables), and tables include of the records and fields.</string>
+    <string name="dbms_a3">The collection of database and DBMS software together is known as a database system. Through the database system, we can perform many activities such as- \n
+The data can be stored in the database with ease, and there are no issues of data redundancy and data inconsistency. \n
+The data will be extracted from the database using DBMS software whenever required.</string>
+    <string name="dbms_a4">Redundancy control \n
+Restriction for unauthorized access \n
+Provides multiple user interfaces \n
+Provides backup and recovery \n
+Enforces integrity constraints \n
+Ensure data consistency</string>
+    <string name="dbms_a5">The Checkpoint is a type of mechanism where all the previous logs are removed from the system and permanently stored in the storage disk. </string>
+    <string name="dbms_a6">A checkpoint is like a snapshot of the DBMS state. Using checkpoints, the DBMS can reduce the amount of work to be done during a restart in the event of subsequent crashes. Checkpoints are used for the recovery of the database after the system crash. Checkpoints are used in the log-based recovery system. When due to a system crash we need to restart the system then at that point we use checkpoints. So that, we do not have to perform the transactions from the very starting.</string>
+    <string name="dbms_a7">The transparent DBMS is a type of DBMS which keeps its physical structure hidden from users. Physical structure or physical storage structure implies to the memory manager of the DBMS, and it describes how the data stored on disk. </string>
+    <string name="dbms_a8">PROJECTION and SELECTION are the unary operations in relational algebra. Unary operations are those operations which use single operands. Unary operations are SELECTION, PROJECTION, and RENAME. \n
+As in SELECTION relational operators are used for example - =, &lt;= &gt;=, etc. </string>
+    <string name="dbms_a9">RDBMS stands for Relational Database Management Systems. It is used to maintain the data records and indices in tables. RDBMS is the form of DBMS which uses the structure to identify and access data concerning the other piece of data in the database. RDBMS is the system that enables you to perform different operations such as- update, insert, delete, manipulate and administer a relational database with minimal difficulties.</string>
+    <string name="dbms_a10">Data Definition Language (DDL) \n
+Data Manipulation Language (DML)  \n
+DATA Control Language (DCL) \n
+Transaction Control Language (TCL)</string>
+    <string name="dbms_a11">The Data model is specified as a collection of conceptual tools for describing data, data relationships, data semantics and constraints. These models are used to describe the relationship between the entities and their attributes.</string>
+    <string name="dbms_a12">A Relation Schema is specified as a set of attributes. It is also known as table schema. It defines what the name of the table is. Relation schema is known as the blueprint with the help of which we can explain that how the data is organized into tables. This blueprint contains no data. \n
+A relation is specified as a set of tuples. A relation is the set of related attributes with identifying key attributes</string>
+    <string name="dbms_a13">The degree of relation is a number of attribute of its relation schema. A degree of relation is also known as Cardinality it is defined as the number of occurrence of one entity which is connected to the number of occurrence of other entity. There are three degree of relation they are one-to-one(1:1), one-to-many(1:M), many-to-one(M:M). </string>
+    <string name="dbms_a14">The Relationship is defined as an association among two or more entities. There are three type of relationships in DBMS \n
+One-To-One: Here one record of any object can be related to one record of another object. \n
+One-To-Many (many-to-one): Here one record of any object can be related to many records of other object and vice versa. \n
+Many-to-many: Here more than one records of an object can be related to n number of records of another object.</string>
+    <string name="dbms_a15">Inconsistent \n
+Not secure \n
+Data redundancy \n
+Difficult in accessing data \n
+Data isolation </string>
+    <string name="dbms_a16">Data abstraction in DBMS is a process of hiding irrelevant details from users. Because database systems are made of complex data structures so, it makes accessible the user interaction with the database. </string>
+    <string name="dbms_a17">Physical level: It is the lowest level of abstraction. It describes how data are stored. \n
+Logical level: It is the next higher level of abstraction. It describes what data are stored in the database and what the relationship among those data is. \n
+View level: It is the highest level of data abstraction. It describes only part of the entire database.</string>
+    <string name="dbms_a18">Data Definition Language (DDL) is a standard for commands which defines the different structures in a database. Most commonly DDL statements are CREATE, ALTER, and DROP. These commands are used for updating data into the database.</string>
+    <string name="dbms_a19">Data Manipulation Language (DML) is a language that enables the user to access or manipulate data as organized by the appropriate data model. For example- SELECT, UPDATE, INSERT, DELETE.</string>
+    <string name="dbms_a20">The DML Compiler translates DML statements in a query language that the query evaluation engine can understand. DML Compiler is required because the DML is the family of syntax element which is very similar to the other programming language which requires compilation. So, it is essential to compile the code in the language which query evaluation engine can understand and then work on those queries with proper output. </string>
+    <string name="dbms_a21">Relational Algebra is a Procedural Query Language which contains a set of operations that take one or two relations as input and produce a new relationship. Relational algebra is the basic set of operations for the relational model.</string>
+    <string name="dbms_a22">Relational Calculus is a Non-procedural Query Language which uses mathematical predicate calculus instead of algebra. Relational calculus does not work on mathematics fundamentals such as algebra, differential, integration, etc. That is why it is also known as predicate calculus.</string>
+    <string name="dbms_a23">The term query optimization specifies an efficient execution plan for evaluating a query that has the least estimated cost. The concept of query optimization came into the frame when there were a number of methods, and algorithms existed for the same task then the question arose that which one is more efficient and the process of determining the efficient way is known as query optimization. </string>
+    <string name="dbms_a24">Once the DBMS informs the user that a transaction has completed successfully, its effect should persist even if the system crashes before all its changes are reflected on disk. This property is called durability. Durability ensures that once the transaction is committed into the database, it will be stored in the non-volatile memory and after that system failure cannot affect that data anymore.</string>
+    <string name="dbms_a25">Normalization is a process of analysing the given relation schemas according to their functional dependencies. It is used to minimize redundancy and also used to minimize insertion, deletion and update distractions. Normalization is considered as an essential process as it is used to avoid data redundancy, insertion anomaly, updation anomaly, deletion anomaly.</string>
+    <string name="dbms_a26">Denormalization is the process of boosting up database performance and adding of redundant data which helps to get rid of complex data. Denormalization is a part of database optimization technique. This process is used to avoid the use of complex and costly joins. Denormalization does not refer to the thought of not to normalize instead of that denormalization takes place after normalization. In this process, firstly the redundancy of the data will be removed using normalization process than through denormalization process we will add redundant data as per the requirement so that we can easily avoid the costly joins.</string>
+    <string name="dbms_a27">Functional Dependency is the starting point of normalization. It exists when a relation between two attributes allow you to determine the corresponding attributes value uniquely. The functional dependency is also known as database dependency and defines as the relationship which occurs when one attribute in a relation uniquely determines another attribute. It is written as A->B which means B is functionally dependent on A.</string>
+    <string name="dbms_a28">E-R model is a short name for the Entity-Relationship model. This model is based on the real world. It contains necessary objects (known as entities) and the relationship among these objects. Here the primary objects are the entity, attribute of that entity, relationship set, an attribute of that relationship set can be mapped in the form of E-R diagram.</string>
+    <string name="dbms_a29">The Entity is a set of attributes in a database. An entity can be a real-world object which physically exists in this world. All the entities have their attribute which in the real world considered as the characteristics of the object. \n
+For example: In the employee database of a company, the employee, department, and the designation can be considered as the entities. These entities have some characteristics which will be the attributes of the corresponding entity.  </string>
+    <string name="dbms_a30">An entity type is specified as a collection of entities, having the same attributes. Entity type typically corresponds to one or several related tables in the database. A characteristic or trait which defines or uniquely identifies the entity is called entity type. \n
+For example, a student has student_id, department, and course as its characteristics.</string>
+    <string name="dbms_a31">The entity set specifies the collection of all entities of a particular entity type in the database. An entity set is known as the set of all the entities which share the same properties. \n
+For example, a set of people, a set of students, a set of companies, etc. </string>
+    <string name="dbms_a32">An extension of an entity type is specified as a collection of entities of a particular entity type that are grouped into an entity set.</string>
+    <string name="dbms_a33">An entity set that does not have sufficient attributes to form a primary key is referred to as a weak entity set. The member of a weak entity set is known as a subordinate entity. Weak entity set does not have a primary key, but we need a mean to differentiate among all those entries in the entity set that depend on one particular strong entity set.</string>
+    <string name="dbms_a34">An attribute refers to a database component. It is used to describe the property of an entity. An attribute can be defined as the characteristics of the entity. Entities can be uniquely identified using the attributes. Attributes represent the instances in the row of the database. \n
+For example: If a student is an entity in the table then age will be the attribute of that student. </string>
+    <string name="dbms_a35">Data integrity is one significant aspect while maintaining the database. So, data integrity is enforced in the database system by imposing a series of rules. Those set of integrity is known as the integrity rules.\n
+There are two integrity rules in DBMS: \n
+Entity Integrity : It specifies that "Primary key cannot have a NULL value." \n
+Referential Integrity: It specifies that "Foreign Key can be either a NULL value or should be the Primary Key value of other relation</string>
+    <string name="dbms_a36">Extension: The Extension is the number of tuples present in a table at any instance. It changes as the tuples are created, updated and destroyed. The actual data in the database change quite frequently. So, the data in the database at a particular moment in time is known as extension or database state or snapshot. It is time dependent. \n\n
+Intension: Intension is also known as Data Schema and defined as the description of the database, which is specified during database design and is expected to remain unchanged. The Intension is a constant value that gives the name, structure of tables and the constraints laid on it.</string>
+    <string name="dbms_a37">System R was designed and developed from 1974 to 1979 at IBM San Jose Research Centre. System R is the first implementation of SQL, which is the standard relational data query language, and it was also the first to demonstrate that RDBMS could provide better transaction processing performance. It is a prototype which is formed to show that it is possible to build a Relational System that can be used in a real-life environment to solve real-life problems.\n\n
+Following are two major subsystems of System R \n
+    Research Storage \n
+    System Relational Data System
+</string>
+    <string name="dbms_a38">Data independence specifies that the application is independent of the storage structure and access strategy of data." It makes you able to modify the schema definition at one level without altering the schema definition in the next higher level.</string>
+    <string name="dbms_a39">Physical level: It is the lowest level of abstraction. It describes how data are stored. \n
+Logical level: It is the next higher level of abstraction. It describes what data are stored in the database and what relationship among those data. \n
+View level: It is the highest level of data abstraction. It describes only part of the entire database.</string>
+    <string name="dbms_a40">The Join operation is one of the most useful activities in relational algebra. It is most commonly used way to combine information from two or more relations. A Join is always performed on the basis of the same or related column. Most complex queries of SQL involve JOIN command. </string>
+    <string name="dbms_a41">1NF is the First Normal Form. It is the simplest type of normalization that you can implement in a database. The primary objectives of 1NF are to: \n
+    Every column must have atomic (single value) \n
+    To Remove duplicate columns from the same table \n
+    Create separate tables for each group of related data and identify each row with a unique column
+</string>
+    <string name="dbms_a42">2NF is the Second Normal Form. A table is said to be 2NF if it follows the following conditions: \n
+    The table is in 1NF, i.e., firstly it is necessary that the table should follow the rules of 1NF. \n
+    Every non-prime attribute is fully functionally dependent on the primary key, i.e., every non-key attribute should be dependent on the primary key in such a way that if any key element is deleted, then even the non_key element will still be saved in the database. \n </string>
+    <string name="dbms_a43">3NF stands for Third Normal Form. A database is called in 3NF if it satisfies the following conditions: \n
+    It is in second normal form. \n
+    There is no transitive functional dependency. </string>
+    <string name="dbms_a44">BCMF stands for Boyce-Codd Normal Form. It is an advanced version of 3NF, so it is also referred to as 3.5NF. BCNF is stricter than 3NF. </string>
+    <string name="dbms_a45">ATOMICITY\n
+CONSISTENCY \n
+ISOLATION \n
+DURABILITY</string>
+    <string name="dbms_a46">A stored procedure is a group of SQL statements that have been created and stored in the database. The stored procedure increases the reusability as here the code or the procedure is stored into the system and used again and again that makes the work easy, takes less time in processing and decreases the complexity of the system. So, if you have a code which you need to use again and again then save that code and call that code whenever it is required.</string>
+    <string name="dbms_a47">DELETE command: DELETE command is used to delete rows from a table based on the condition that we provide in a WHERE clause. \n
+DELETE command delete only those rows which are specified with the WHERE clause. \n
+TRUNCATE command: TRUNCATE command is used to remove all rows (complete data) from a table. It is similar to the DELETE command with no WHERE clause. \n
+TRUNCATE command removes all the rows from the table.</string>
+    <string name="dbms_a48">The 2-Tier architecture is the same as basic client-server. In the two-tier architecture, applications on the client end can directly communicate with the database at the server side</string>
+    <string name="dbms_a49">The 3-Tier architecture contains another layer between the client and server. Introduction of 3-tier architecture is for the ease of the users as it provides the GUI, which, make the system secure and much more accessible. In this architecture, the application on the client-end interacts with an application on the server which further communicates with the database system.</string>
+    <string name="dbms_a50">Primary key \n
+Candidate key \n
+Super key \n
+Foreign key</string>
+
+    <!--DS-->
+    <string name="dsa_q1">1. What is data-structure?</string>
+    <string name="dsa_q2">2. What are various data-structures available?</string>
+    <string name="dsa_q3">3. What is algorithm?</string>
+    <string name="dsa_q4">4. Why we need to do algorithm analysis?</string>
+    <string name="dsa_q5">5. What are the criteria of algorithm analysis?</string>
+    <string name="dsa_q6">6. What is asymptotic analysis of an algorithm?</string>
+    <string name="dsa_q7">7. What are asymptotic notations?</string>
+    <string name="dsa_q8">8. What is linear data structure?</string>
+    <string name="dsa_q9">9. What are common operations that can be performed on a data-structure?</string>
+    <string name="dsa_q10">10. Briefly explain the approaches to develop algorithms?</string>
+    <string name="dsa_q11">11. Give some examples greedy algorithms?</string>
+    <string name="dsa_q12">12. What are some examples of divide and conquer algorithms?</string>
+    <string name="dsa_q13">13. What are some examples of dynamic programming algorithms?</string>
+    <string name="dsa_q14">14. What is a linked-list?</string>
+    <string name="dsa_q15">15. What is stack?</string>
+    <string name="dsa_q16">16. Why do we use stacks?</string>
+    <string name="dsa_q17">17. What operations can be performed on stacks?</string>
+    <string name="dsa_q18">18. What is a queue in data-structure?</string>
+    <string name="dsa_q19">19. Why do we use queues?</string>
+    <string name="dsa_q20">20. What operations can be performed on Queues?</string>
+    <string name="dsa_q21">21. What is linear searching?</string>
+    <string name="dsa_q22">22. What is binary search?</string>
+    <string name="dsa_q23">23. What is bubble sort and how bubble sort works?</string>
+    <string name="dsa_q24">24. Tell me something about insertion sort?</string>
+    <string name="dsa_q25">25. What is selection sort?</string>
+    <string name="dsa_q26">26. How insertion sort and selection sorts are different?</string>
+    <string name="dsa_q27">27. What is merge sort and how it works?</string>
+    <string name="dsa_q28">28. What is shell sort?</string>
+    <string name="dsa_q29">29. How quick sort works?</string>
+    <string name="dsa_q30">30. What is a graph?</string>
+    <string name="dsa_q31">31. How depth first traversal works?</string>
+    <string name="dsa_q32">32. How breadth first traversal works?</string>
+    <string name="dsa_q33">33. What is a tree?</string>
+    <string name="dsa_q34">34. What is a binary tree?</string>
+    <string name="dsa_q35">35. What is a binary search tree?</string>
+    <string name="dsa_q36">36. What is tree traversal?</string>
+    <string name="dsa_q37">37. What is an AVL Tree?</string>
+    <string name="dsa_q38">38. What is a spanning tree?</string>
+    <string name="dsa_q39">39. How many spanning trees can a graph has?</string>
+    <string name="dsa_q40">40. How Kruskals algorithm works?</string>
+    <string name="dsa_q41">41. How Prims algorithm finds spanning tree?</string>
+    <string name="dsa_q42">42. What is a minimum spanning tree (MST)?</string>
+    <string name="dsa_q43">43. What is a heap in data structure?</string>
+    <string name="dsa_q44">44. What is a recursive function?</string>
+    <string name="dsa_q45">45. What is tower of hanoi?</string>
+    <string name="dsa_q46">46. What is fibonacci series?</string>
+    <string name="dsa_q47">47. What is hashing?</string>
+    <string name="dsa_q48">48. What is interpolation search technique?</string>
+
+
+    <string name="dsa_a1">Data structure is a way of defining, storing and retriving of data in a structural and systemetic way. A data structure may contain different type of data items.</string>
+    <string name="dsa_a2">Data structure availability may vary by programming languages. Commonly available data structures are list, arrays, stack, queues, graph, tree etc.</string>
+    <string name="dsa_a3">Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.</string>
+    <string name="dsa_a4">A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.An algorithm are generally analyzed on two factors - time and space. That is, how much execution time and how much extra space required by the algorithm.</string>
+    <string name="dsa_a5">An algorithm are generally analyzed on two factors - time and space. That is, how much execution time and how much extra space required by the algorithm.</string>
+    <string name="dsa_a6">Asymptotic analysis of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance. Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.</string>
+    <string name="dsa_a7">Asymptotic analysis can provide three levels of mathematical binding of execution time of an algorithm \n
+    Best case is represented by O(n) notation. \n
+    Worst case is represented by ?(n) notation. \n
+    Average case is represented by T(n) notation. </string>
+    <string name="dsa_a8">A linear data-structure has sequentially arranged data items. The next time can be located in the next memory address. It is stored and accessed in a sequential manner. Array and list are example of linear data structure.</string>
+    <string name="dsa_a9">
+    Insertion - adding a data item \n
+    Deletion - removing a data item \n
+    Traversal - accessing and/or printing all data items \n
+    Searching - finding a particular data item \n
+    Sorting - arranging data items in a pre-defined sequence \n
+</string>
+    <string name="dsa_a10">
+    Greedy Approach - finding solution by choosing next best option \n
+    Divide and Conquer - diving the problem to a minimum possible sub-problem and solving them independently \n
+    Dynamic Programming - diving the problem to a minimum possible sub-problem and solving them combinedly
+</string>
+    <string name="dsa_a11">
+    Travelling Salesman Problem \n
+    Prims Minimal Spanning Tree Algorithm \n
+    Kruskals Minimal Spanning Tree Algorithm \n
+    Dijkstras Minimal Spanning Tree Algorithm \n
+    Graph - Map Coloring \n
+    Graph - Vertex Cover \n
+    Knapsack Problem \n
+    Job Scheduling Problem
+</string>
+    <string name="dsa_a12">
+    Merge Sort \n
+    Quick Sort \n
+    Binary Search \n
+    Strassens Matrix Multiplication \n
+    Closest pair (points)
+</string>
+    <string name="dsa_a13">
+  Fibonacci number series \n
+    Knapsack problem \n
+    Tower of Hanoi \n
+    All pair shortest path by Floyd-Warshall \n
+    Shortest path by Dijkstra \n
+    Project scheduling
+</string>
+    <string name="dsa_a14">
+    A linked-list is a list of data-items connected with links i.e. pointers or references. Most modern high-level programming language does not provide the feature of directly accessing memory location, therefore, linked-list are not supported in them or available in form of inbuilt functions.
+</string>
+    <string name="dsa_a15">In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out method.</string>
+    <string name="dsa_a16">Stacks follows LIFO method and addition and retrieval of a data item takes only ?(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.</string>
+    <string name="dsa_a17">
+    push() - adds an item to stack \n
+    pop() - removes the top stack item \n
+    peek() - gives value of top item without removing it \n
+    isempty() - checks if stack is empty \n
+    isfull() - checks if stack is full</string>
+    <string name="dsa_a18">
+    Queue is an abstract data structure, somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.
+</string>
+    <string name="dsa_a19">As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.</string>
+    <string name="dsa_a20">
+    enqueue() - adds an item to rear of the queue \n
+    dequeue() - removes the item from front of the queue \n
+    peek() - gives value of front item without removing it \n
+    isempty() - checks if stack is empty \n
+    isfull() - checks if stack is full
+</string>
+    <string name="dsa_a21">Linear search tries to find an item in a sequentially arranged data type. These sequentially arranged data items known as array or list, are accessible in incrementing memory location. Linear search compares expected data item with each of data items in list or array. The average case time complexity of linear search is ?(n) and worst case complexity is ?(n2). Data in target arrays/lists need not to be sorted.</string>
+    <string name="dsa_a22">
+A binary search works only on sorted lists or arrays. This search selects the middle which splits the entire list into two parts. First the middle is compared. \n
+This search first compares the target value to the mid of the list. If it is not found, then it takes decision on whether.
+</string>
+    <string name="dsa_a23">Bubble sort is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order. Because the time complexity is ?(n2), it is not suitable for large set of data.</string>
+    <string name="dsa_a24">Insertion sort divides the list into two sub-list, sorted and unsorted. It takes one element at time and finds it appropriate location in sorted sub-list and insert there. The output after insertion is a sorted sub-list. It iteratively works on all the elements of unsorted sub-list and inserts them to sorted sub-list in order..</string>
+    <string name="dsa_a25">Selection sort is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list</string>
+    <string name="dsa_a26">Both sorting techniques maintains two sub-lists, sorted and unsorted and both take one element at a time and places it into sorted sub-list. Insertion sort works on the current element in hand and places it in the sorted array at appropriate location maintaining the properties of insertion sort. Whereas, selection sort searches the minimum from the unsorted sub-list and replaces it with the current element in hand.</string>
+    <string name="dsa_a27">Merge sort is sorting algorithm based on divide and conquer programming approach. It keeps on dividing the list into smaller sub-list until all sub-list has only 1 element. And then it merges them in a sorted way until all sub-lists are consumed. It has run-time complexity of ?(n log n) and it needs ?(n) auxiliary space.</string>
+    <string name="dsa_a28">Shell sort can be said a variant of insertion sort. Shell sort divides the list into smaller sublist based on some gap variable and then each sub-list is sorted using insertion sort. In best cases, it can perform upto ?(n log n).</string>
+    <string name="dsa_a29">Quick sort uses divide and conquer approach. It divides the list in smaller partitions using pivot. The values which are smaller than the pivot are arranged in the left partition and greater values are arranged in the right partition. Each partition is recursively sorted using quick sort.</string>
+    <string name="dsa_a30">A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges</string>
+    <string name="dsa_a31">Depth First Search algorithm(DFS) traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search when a dead end occurs in any iteration.</string>
+    <string name="dsa_a32">Breadth First Search algorithm(BFS) traverses a graph in a breadthwards motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.</string>
+    <string name="dsa_a33">A tree is a minimally connected graph having no loops and circuits.</string>
+    <string name="dsa_a34">A binary tree has a special condition that each node can have two children at maximum.</string>
+    <string name="dsa_a35">A binary search tree is a binary tree with a special provision where a nodes left child must have value less than its parents value and nodes right child must have value greater than its parent value.</string>
+    <string name="dsa_a36">
+Tree traversal is a process to visit all the nodes of a tree. Because, all nodes are connected via edges (links) we always start from the root (head) node. There are three ways which we use to traverse a tree \n\n
+    In-order Traversal \n
+    Pre-order Traversal \n
+    Post-order Traversal
+</string>
+    <string name="dsa_a37">
+AVL trees are height balancing binary search tree. AVL tree checks the height of left and right sub-trees and assures that the difference is not more than 1. This difference is called Balance Factor. \n\n
+BalanceFactor = height(left-sutree) - height(right-sutree)
+</string>
+    <string name="dsa_a38">A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and it can not be disconnected.</string>
+    <string name="dsa_a39">It depends on how connected the graph is. A complete undirected graph can have maximum nn-1 number of spanning trees, where n is number of nodes.</string>
+    <string name="dsa_a40">This algorithm treats the graph as a forest and every node it as an individual tree. A tree connects to another only and only if it has least cost among all available options and does not violate MST properties.</string>
+    <string name="dsa_a41">Prims algorithm treats the nodes as a single tree and keeps on adding new nodes to the spanning tree from the given graph.</string>
+    <string name="dsa_a42">In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight that all other spanning trees of the same graph.</string>
+    <string name="dsa_a43">Heap is a special balanced binary tree data structure where root-node key is compared with its children and arranged accordingly. A min-heap, a parent node has key value less than its childs and a max-heap parent node has value greater than its childs.</string>
+    <string name="dsa_a44">A recursive function is one which calls itself, directly or calls a function that in turn calls it. Every recursive function follows the recursive properties - base criteria where functions stops calling itself and progressive approach where the functions tries to meet the base criteria in each iteration.</string>
+    <string name="dsa_a45">Tower of Hanoi, is a mathematical puzzle which consists of three tower (pegs) and more than one rings. All rings are of different size and stacked upon each other where the large disk is always below the small disk. The aim is to move the tower of disk from one peg to another, without breaking its properties.</string>
+    <string name="dsa_a46">Fibonacci Series generates subsequent number by adding two previous numbers. For example - 0 1 1 2 3 5 8 13.</string>
+    <string name="dsa_a47">Hashing is a technique to convert a range of key values into a range of indexes of an array. By using hash tables, we can create an associative data storage where data index can be find by providing its key values.</string>
+    <string name="dsa_a48">Interpolation search is an improved variant of binary search. This search algorithm works on the probing position of required value.</string>
+
+    <!--OOPS-->
+    <string name="oop_q1">1. What is OOPS?</string>
+    <string name="oop_q2">2. Write basic concepts of OOPS?</string>
+    <string name="oop_q3">3. What is a class?</string>
+    <string name="oop_q4">4. What is an Object?</string>
+    <string name="oop_q5">5. What is Encapsulation?</string>
+    <string name="oop_q6">6. What is Polymorphism?</string>
+    <string name="oop_q7">7. What is Inheritance?</string>
+    <string name="oop_q8">8. What are manipulators?</string>
+    <string name="oop_q9">9. Explain the term constructor?</string>
+    <string name="oop_q10">10. Define Destructor?</string>
+    <string name="oop_q11">11. What is an Inline function?</string>
+    <string name="oop_q12">12. What is a virtual function?</string>
+    <string name="oop_q13">13. What is a friend function?</string>
+    <string name="oop_q14">14. What is function overloading?</string>
+    <string name="oop_q15">15. What is operator overloading?</string>
+    <string name="oop_q16">16. What is an abstract class?</string>
+    <string name="oop_q17">17. What is a ternary operator?</string>
+    <string name="oop_q18">18. What is the use of finalize method?</string>
+    <string name="oop_q19">19. What are the different types of arguments?</string>
+    <string name="oop_q20">20. What is the super keyword?</string>
+    <string name="oop_q21">21. What is method overriding?</string>
+    <string name="oop_q22">22. What is an interface?</string>
+    <string name="oop_q23">23. What is exception handling?</string>
+    <string name="oop_q24">24. What are tokens?</string>
+    <string name="oop_q25">25. What is the main difference between overloading and overriding?</string>
+    <string name="oop_q26">26. What is the main difference between a class and an object? </string>
+    <string name="oop_q27">27. What is an abstraction?</string>
+    <string name="oop_q28">28. What are the access modifiers?</string>
+    <string name="oop_q29">29. What are sealed modifiers?</string>
+    <string name="oop_q30">30. How can we call the base method without creating an instance?</string>
+    <string name="oop_q31">31. What is the difference between new and override?</string>
+    <string name="oop_q32">32. What are the various types of constructors?</string>
+    <string name="oop_q33">33. What is early and late Binding? </string>
+    <string name="oop_q34">34. What is THIS pointer?</string>
+    <string name="oop_q35">35. What is the difference between structure and a class?</string>
+    <string name="oop_q36">36. What is the default access modifier in a class?</string>
+    <string name="oop_q37">37. What is a pure virtual function?</string>
+    <string name="oop_q38">38. What are all the operators that cannot be overloaded?</string>
+    <string name="oop_q39">39. What is dynamic or run time polymorphism?</string>
+    <string name="oop_q40">40. Do we require a parameter for constructors?</string>
+    <string name="oop_q41">41. What is a copy constructor?</string>
+    <string name="oop_q42">42. What does the keyword virtual represented in the method definition?</string>
+    <string name="oop_q43">43. Whether static method can use nonstatic members?</string>
+    <string name="oop_q44">44. What are a base class, subclass, and superclass? </string>
+    <string name="oop_q45">45. What is static and dynamic Binding? </string>
+    <string name="oop_q46">46. How many instances can be created for an abstract class?</string>
+    <string name="oop_q47">47. Which keyword can be used for overloading?</string>
+    <string name="oop_q48">48. What is the default access specifier in a class definition?</string>
+    <string name="oop_q49">49. Which OOPS concept is used as a reuse mechanism?</string>
+    <string name="oop_q50">50. Which OOPS concept exposes only the necessary information to the calling functions?</string>
+
+    <string name="oop_a1">OOPS is abbreviated as Object Oriented Programming system in which programs are considered as a collection of objects. Each object is nothing but an instance of a class.</string>
+    <string name="oop_a2">
+    Abstraction \n
+    Encapsulation \n
+    Inheritance \n
+    Polymorphism
+</string>
+    <string name="oop_a3">A class is simply a representation of a type of object. It is the blueprint/plan/template that describes the details of an object.</string>
+    <string name="oop_a4">An object is an instance of a class. It has its own state, behavior, and identity.</string>
+    <string name="oop_a5">Encapsulation is an attribute of an object, and it contains all data which is hidden. That hidden data can be restricted to the members of that class.</string>
+    <string name="oop_a6">Polymorphism is nothing but assigning behavior or value in a subclass to something that was already declared in the main class. Simply, polymorphism takes more than one form.</string>
+    <string name="oop_a7">Inheritance is a concept where one class shares the structure and behavior defined in another class. If Inheritance applied to one class is called Single Inheritance, and if it depends on multiple classes, then it is called multiple Inheritance.</string>
+    <string name="oop_a8">Manipulators are the functions which can be used in conjunction with the insertion (&lt;&lt;) and extraction (&gt;&gt;) operators on an object.</string>
+    <string name="oop_a9">A constructor is a method used to initialize the state of an object, and it gets invoked at the time of object creation. Rules for constructor are:\n\n
+    Constructor Name should be the same as a class name. \n
+    A constructor must have no return type.
+</string>
+    <string name="oop_a10">A destructor is a method which is automatically called when the object is made of scope or destroyed. Destructor name is also same as class name but with the tilde symbol before the name.</string>
+    <string name="oop_a11">An inline function is a technique used by the compilers and instructs to insert complete body of the function wherever that function is used in the program source code.</string>
+    <string name="oop_a12">A virtual function is a member function of a class, and its functionality can be overridden in its derived class. This function can be implemented by using a keyword called virtual, and it can be given during function declaration. \n
+A virtual function can be declared using a token(virtual) in C++. It can be achieved in C/Python Language by using function pointers or pointers to function.</string>
+    <string name="oop_a13">A friend function is a friend of a class that is allowed to access to Public, private, or protected data in that same class. If the function is defined outside the class cannot access such information. \n
+A friend can be declared anywhere in the class declaration, and it cannot be affected by access control keywords like private, public, or protected.</string>
+    <string name="oop_a14">Function overloading is a regular function, but it can perform different tasks. It allows the creation of several methods with the same name which differ from each other by the type of input and output of the function.</string>
+    <string name="oop_a15">Operator overloading is a function where different operators are applied and depends on the arguments. Operator,-,* can be used to pass through the function, and it has its own precedence to execute.</string>
+    <string name="oop_a16">An abstract class is a class which cannot be instantiated. Creation of an object is not possible with an abstract class, but it can be inherited. An abstract class can contain only an Abstract method. Java allows only abstract method in abstract class while other languages allow non-abstract method as well.</string>
+    <string name="oop_a17">The ternary operator is said to be an operator which takes three arguments. Arguments and results are of different data types, and it depends on the function. The ternary operator is also called a conditional operator.</string>
+    <string name="oop_a18">Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.</string>
+    <string name="oop_a19">A parameter is a variable used during the declaration of the function or subroutine, and arguments are passed to the function body, and it should match with the parameter defined. There are two types of Arguments. \n\n
+    Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function. \n
+    Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
+</string>
+    <string name="oop_a20">The super keyword is used to invoke the overridden method, which overrides one of its superclass methods. This keyword allows to access overridden methods and also to access hidden members of the superclass.</string>
+    <string name="oop_a21">Method overriding is a feature that allows a subclass to provide the implementation of a method that overrides in the main class. It will override the implementation in the superclass by providing the same method name, same parameter, and same return type.</string>
+    <string name="oop_a22">An interface is a collection of an abstract method. If the class implements an interface, it thereby inherits all the abstract methods of an interface.</string>
+    <string name="oop_a23">An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. Those exceptions are adequately handled through exception handling mechanism like try, catch, and throw keywords.</string>
+    <string name="oop_a24">A compiler recognizes a token, and it cannot be broken down into component elements. Keywords, identifiers, constants, string literals, and operators are examples of tokens. \n
+Even punctuation characters are also considered as tokens. Example: Brackets, Commas, Braces, and Parentheses.</string>
+    <string name="oop_a25">Overloading is static Binding, whereas Overriding is dynamic Binding. Overloading is nothing but the same method with different arguments, and it may or may not return the equal value in the same class itself. \n\n
+Overriding is the same method names with the same arguments and return types associated with the class and its child class.</string>
+    <string name="oop_a26">An object is an instance of a class. Objects hold multiple information, but classes don’t have any information. Definition of properties and functions can be done in class and can be used by the object. \n\n
+A class can have sub-classes, while an object doesn’t have sub-objects.</string>
+    <string name="oop_a27">Abstraction is a useful feature of OOPS, and it shows only the necessary details to the client of an object. Meaning, it shows only required details for an object, not the inner constructors, of an object. Example – When you want to switch on the television, it is not necessary to know the inner circuitry/mechanism needed to switch on the TV. Whatever is required to switch on TV will be shown by using an abstract class.</string>
+    <string name="oop_a28">Private \n
+Protected \n
+Public</string>
+    <string name="oop_a29">Sealed modifiers are the access modifiers where the methods can not inherit it. Sealed modifiers can also be applied to properties, events, and methods. This modifier cannot be used to static members.</string>
+    <string name="oop_a30">Yes, it is possible to call the base method without creating an instance. And that method should be Static method. \n
+Doing Inheritance from that class. Use Base Keyword from a derived class.</string>
+    <string name="oop_a31">The new modifier instructs the compiler to use the new implementation instead of the base class function. Whereas, Override modifier helps to override the base class function.</string>
+    <string name="oop_a32">There are three types of constructors: \n
+1. Default Constructor – With no parameters. \n
+2. Parametric Constructor – With Parameters. Create a new instance of a class and also passing arguments simultaneously. \n
+3. Copy Constructor – Which creates a new object as a copy of an existing object.</string>
+    <string name="oop_a33">Early binding refers to the assignment of values to variables during design time, whereas late Binding refers to the assignment of values to variables during run time.</string>
+    <string name="oop_a34">THIS pointer refers to the current object of a class. THIS keyword is used as a pointer which differentiates between the current object with the global object. It refers to the current object.</string>
+    <string name="oop_a35">The default access type of a Structure is public, but class access type is private. A structure is used for grouping data, whereas a class can be used for grouping data and methods. Structures are exclusively used for data, and it doesn’t require strict validation, but classes are used to encapsulate and inherent data, which requires strict validation.</string>
+    <string name="oop_a36">The default access modifier of a class is Internal and the default access modifier of a class member is Private.</string>
+    <string name="oop_a37">A pure virtual function is a function which can be overridden in the derived class but cannot be defined. A virtual function can be declared as Pure by using the operator =0.</string>
+    <string name="oop_a38">Following are the operators that cannot be overloaded. \n\n
+    Scope Resolution (::) \n
+    Member Selection (.) \n
+    Member selection through a pointer to function (.*)
+</string>
+    <string name="oop_a39">Dynamic or Run time polymorphism is also known as method overriding in which call to an overridden function is resolved during run time, not at the compile time. It means having two or more methods with the same name, same signature but with different implementation.</string>
+    <string name="oop_a40">No, we do not require a parameter for constructors.</string>
+    <string name="oop_a41">This is a special constructor for creating a new object as a copy of an existing object. There will always be only one copy constructor that can be either defined by the user or the system.</string>
+    <string name="oop_a42">It means we can override the method.</string>
+    <string name="oop_a43">False</string>
+    <string name="oop_a44">The base class is the most generalized class, and it is said to be a root class. \n
+A Subclass is a class that inherits from one or more base classes. \n
+The superclass is the parent class from which another class inherits.</string>
+    <string name="oop_a45">Binding is nothing but the association of a name with the class. Static Binding is a binding in which name can be associated with the class during compilation time, and it is also called as early Binding. \n
+Dynamic Binding is a binding in which name can be associated with the class during execution time, and it is also called as Late Binding.</string>
+    <string name="oop_a46">Zero instances will be created for an abstract class. In other words, you cannot create an instance of an Abstract Class.</string>
+    <string name="oop_a47">Operator keyword is used for overloading.</string>
+    <string name="oop_a48">Private access specifier is used in a class definition.</string>
+    <string name="oop_a49">Inheritance is the OOPS concept that can be used as a reuse mechanism.</string>
+    <string name="oop_a50">Encapsulation</string>
+
+    <!--OS-->
+    <string name="os_q1">1. What is an operating system?</string>
+    <string name="os_q2">2. What is the main purpose of an operating system?</string>
+    <string name="os_q3">3. What are the different operating systems?</string>
+    <string name="os_q4">4. What is a socket?</string>
+    <string name="os_q5">5. What is a real-time system?</string>
+    <string name="os_q6">6. What is kernel? </string>
+    <string name="os_q7">7. What is monolithic kernel?</string>
+    <string name="os_q8">8. What do you mean by a process?</string>
+    <string name="os_q9">9. What are the different states of a process?</string>
+    <string name="os_q10">10. What is the difference between micro kernel and macro kernel?</string>
+    <string name="os_q11">11. What is the concept of reentrancy?</string>
+    <string name="os_q12">12. What is the difference between process and program?</string>
+    <string name="os_q13">13. What is the use of paging in operating system?</string>
+    <string name="os_q14">14. What is the concept of demand paging?</string>
+    <string name="os_q15">15. What is the advantage of a multiprocessor system?</string>
+    <string name="os_q16">16. What is virtual memory?</string>
+    <string name="os_q17">17. What is thrashing?</string>
+    <string name="os_q18">18. What are the four necessary and sufficient conditions behind the deadlock?</string>
+    <string name="os_q19">19. What is a thread?</string>
+    <string name="os_q20">20. What is FCFS?</string>
+    <string name="os_q21">21. What is SMP?</string>
+    <string name="os_q22">22. What is RAID? What are the different RAID levels?</string>
+    <string name="os_q23">23. What is deadlock? Explain.</string>
+    <string name="os_q24">24. Which are the necessary conditions to achieve a deadlock?</string>
+    <string name="os_q25">25. What is Bankers algorithm?</string>
+    <string name="os_q26">26. What is the difference between logical address space and physical address space?</string>
+    <string name="os_q27">27. What is fragmentation?</string>
+    <string name="os_q28">28. How many types of fragmentation occur in Operating System?</string>
+    <string name="os_q29">29. What is spooling?</string>
+    <string name="os_q30">30. What is the difference between internal commands and external commands?</string>
+    <string name="os_q31">31. What is semaphore?</string>
+    <string name="os_q32">32. What is a binary Semaphore?</string>
+    <string name="os_q33">33. What is Beladys Anomaly?</string>
+    <string name="os_q34">34. What is starvation in Operating System?</string>
+    <string name="os_q35">35. What is aging in Operating System?</string>
+
+    <string name="os_a1">The operating system is a software program that facilitates computer hardware to communicate and operate with the computer software. It is the most important part of a computer system without it computer is just like a box. </string>
+    <string name="os_a2">
+    1. It is designed to make sure that a computer system performs well by managing its computational activities. \n
+    2. It provides an environment for the development and execution of programs.
+</string>
+    <string name="os_a3">
+    Batched operating systems \n
+    Distributed operating systems \n
+    Timesharing operating systems \n
+    Multi-programmed operating systems \n
+    Real-time operating systems
+</string>
+    <string name="os_a4">A socket is used to make connection between two applications. Endpoints of the connection are called socket.</string>
+    <string name="os_a5">Real-time system is used in the case when rigid-time requirements have been placed on the operation of a processor. It contains a well defined and fixed time constraints.</string>
+    <string name="os_a6">Kernel is the core and most important part of a computer operating system which provides basic services for all parts of the OS.</string>
+    <string name="os_a7">A monolithic kernel is a kernel which includes all operating system code is in single executable image.</string>
+    <string name="os_a8">An executing program is known as process. There are two types of processes: \n\n
+    Operating System Processes \n
+    User Processes
+</string>
+    <string name="os_a9">
+    New Process \n
+    Running Process \n
+    Waiting Process \n
+    Ready Process \n
+    Terminated Process
+</string>
+    <string name="os_a10">Micro kernel: micro kernel is the kernel which runs minimal performance affecting services for operating system. In micro kernel operating system all other operations are performed by processor. \n
+Macro Kernel: Macro Kernel is a combination of micro and monolithic kernel.</string>
+    <string name="os_a11">It is a very useful memory saving technique that is used for multi-programmed time sharing systems. It provides functionality that multiple users can share a single copy of program during the same period. </string>
+    <string name="os_a12">A program while running or executing is known as a process. </string>
+    <string name="os_a13">Paging is used to solve the external fragmentation problem in operating system. This technique ensures that the data you need is available as quickly as possible. </string>
+    <string name="os_a14">Demand paging specifies that if an area of memory is not currently being used, it is swapped to disk to make room for an applications need. </string>
+    <string name="os_a15">As many as processors are increased, you will get the considerable increment in throughput. It is cost effective also because they can share resources. So, the overall reliability increases. </string>
+    <string name="os_a16">Virtual memory is a very useful memory management technique which enables processes to execute outside of memory. This technique is especially used when an executing program cannot fit in the physical memory. </string>
+    <string name="os_a17">Thrashing is a phenomenon in virtual memory scheme when the processor spends most of its time in swapping pages, rather than executing instructions. </string>
+    <string name="os_a18">Mutual Exclusion Condition \n
+Hold and Wait Condition \n
+No-Preemptive Condition \n
+Circular Wait Condition</string>
+    <string name="os_a19">A thread is a basic unit of CPU utilization. It consists of a thread ID, program counter, register set and a stack. </string>
+    <string name="os_a20">FCFS stands for First Come, First Served. It is a type of scheduling algorithm. In this scheme, if a process requests the CPU first, it is allocated to the CPU first. Its implementation is managed by a FIFO queue.</string>
+    <string name="os_a21">SMP stands for Symmetric MultiProcessing. It is the most common type of multiple processor system. In SMP, each processor runs an identical copy of the operating system, and these copies communicate with one another when required.</string>
+    <string name="os_a22">RAID stands for Redundant Array of Independent Disks. It is used to store the same data redundantly to improve the overall performance. \n
+Following are the different RAID levels: \n
+RAID 0 - Stripped Disk Array without fault tolerance \n
+RAID 1 - Mirroring and duplexing \n
+RAID 2 - Memory-style error-correcting codes \n
+RAID 3 - Bit-interleaved Parity \n
+RAID 4 - Block-interleaved Parity \n
+RAID 5 - Block-interleaved distributed Parity \n
+RAID 6 - P+Q Redundancy</string>
+    <string name="os_a23">Deadlock is a specific situation or condition where two processes are waiting for each other to complete so that they can start. But this situation causes hang for both of them.</string>
+    <string name="os_a24">Mutual Exclusion \n
+Hold and Wait \n
+No preemption \n
+Circular Wait</string>
+    <string name="os_a25">Bankers algorithm is used to avoid deadlock. It is the one of deadlock-avoidance method. It is named as Bankers algorithm on the banking system where bank never allocates available cash in such a manner that it can no longer satisfy the requirements of all of its customers. </string>
+    <string name="os_a26">Logical address space specifies the address that is generated by CPU. On the other hand physical address space specifies the address that is seen by the memory unit.</string>
+    <string name="os_a27">Fragmentation is a phenomenon of memory wastage. It reduces the capacity and performance because space is used inefficiently.</string>
+    <string name="os_a28">There are two types of fragmentation: \n\n
+    Internal fragmentation: It is occurred when we deal with the systems that have fixed size allocation units. \n
+    External fragmentation: It is occurred when we deal with systems that have variable-size allocation units.
+</string>
+    <string name="os_a29">Spooling is a process in which data is temporarily gathered to be used and executed by a device, program or the system. It is associated with printing. When different applications send output to the printer at the same time, spooling keeps these all jobs into a disk file and queues them accordingly to the printer. </string>
+    <string name="os_a30">Internal commands are the built-in part of the operating system while external commands are the separate file programs that are stored in a separate folder or directory. </string>
+    <string name="os_a31">Semaphore is a protected variable or abstract data type that is used to lock the resource being used. The value of the semaphore indicates the status of a common resource. \n
+There are two types of semaphore: \n
+   1. Binary semaphores \n
+   2. Counting semaphores
+</string>
+    <string name="os_a32">Binary semaphore takes only 0 and 1 as value and used to implement mutual exclusion and synchronize concurrent processes. </string>
+    <string name="os_a33">Beladys Anomaly is also called FIFO anomaly. Usually, on increasing the number of frames allocated to a process virtual memory, the process execution is faster, because fewer page faults occur. Sometimes, the reverse happens, i.e., the execution time increases even when more frames are allocated to the process. This is Beladys Anomaly. This is true for certain page reference patterns.</string>
+    <string name="os_a34">Starvation is Resource management problem. In this problem, a waiting process does not get the resources it needs for a long time because the resources are being allocated to other processes.</string>
+    <string name="os_a35">Aging is a technique used to avoid the starvation in resource scheduling system.</string>
+
+    <!--ST-->
+    <string name="st_q1">1. What is the PDCA cycle and where testing fits in?</string>
+    <string name="st_q2">2. What is the difference between the white box, black box, and gray box testing?</string>
+    <string name="st_q3">3. What are the advantages of designing tests early in the life cycle?</string>
+    <string name="st_q4">4. What are the types of defects?</string>
+    <string name="st_q5">5. What is exploratory testing?</string>
+    <string name="st_q6">6. When should exploratory testing be performed?</string>
+    <string name="st_q7">7. What are the advantages of designing tests early in the life cycle?</string>
+    <string name="st_q8">8. Tell me about the risk-based testing.</string>
+    <string name="st_q9">9. What is acceptance testing?</string>
+    <string name="st_q10">10. What is accessibility testing?</string>
+    <string name="st_q11">11. What is Adhoc testing?</string>
+    <string name="st_q12">12. What is Agile testing?</string>
+    <string name="st_q13">13. What is API (Application Programming Interface)?</string>
+    <string name="st_q14">14. What do you mean by automated testing?</string>
+    <string name="st_q15">15. What is Bottom-up testing?</string>
+    <string name="st_q16">16. What is Baseline Testing?</string>
+    <string name="st_q17">17. What is Benchmark Testing?</string>
+    <string name="st_q18">18. Which types are testing are important for web testing?</string>
+    <string name="st_q19">19.What is the difference between web application and desktop application in the scenario of testing?</string>
+    <string name="st_q20">20. What is the difference between verification and validation?</string>
+    <string name="st_q21">21. What is the difference between Retesting and Regression Testing?</string>
+    <string name="st_q22">22. What is the difference between preventative and reactive approaches to testing? </string>
+    <string name="st_q23">23. What is the purpose of exit criteria?</string>
+    <string name="st_q24">24. Why is the decision table testing used?</string>
+    <string name="st_q25">25. What is alpha and beta testing?</string>
+    <string name="st_q26">26. What is Random/Monkey Testing?</string>
+    <string name="st_q27">27. What is the negative and positive testing?</string>
+    <string name="st_q28">28. What is the benefit of test independence?</string>
+    <string name="st_q29">29. What is the boundary value analysis/testing?</string>
+    <string name="st_q30">30. How would you test the login feature of a web application?</string>
+    <string name="st_q31">31. What are the types of performance testing?</string>
+    <string name="st_q32">32. What is the difference between functional and non-functional testing?</string>
+    <string name="st_q33">33. What is the difference between static and dynamic testing?</string>
+    <string name="st_q34">34. What is the difference between negative and positive testing?</string>
+    <string name="st_q35">35. What are the different models available in SDLC?</string>
+    <string name="st_q36">36. List out the difference between smoke testing and sanity testing and dry run testing?</string>
+    <string name="st_q37">37. How do we test a web application? What are the types of tests we perform on the web application?</string>
+    <string name="st_q38">38. Why do we need to perform compatibility testing?</string>
+    <string name="st_q39">39. How many test cases we can write in a day?</string>
+    <string name="st_q40">40. How many test cases can we review per day?</string>
+    <string name="st_q41">41. How many test cases can we run in a day?</string>
+    <string name="st_q42">42. Does the customer get a 100% bug-free product?</string>
+    <string name="st_q43">43. How to track the bug manually and with the help of automation?</string>
+    <string name="st_q44">44. Why does an application have bugs?</string>
+    <string name="st_q45">45. When we perform testing?</string>
+
+
+    <string name="st_a1">There are four steps in a normal software development process. In short, these steps are referred to as PDCA.
+Software Testing Interview Questions \n
+PDCA stands for Plan, Do, Check, Act.</string>
+    <string name="st_a2">Black box Testing: The strategy of black box testing is based on requirements and specification. It requires no need of knowledge of internal path, structure or implementation of the software being tested. \n\n
+White box Testing: White box testing is based on internal paths, code structure, and implementation of the software being tested. It requires a full and detail programming skill. \n\n
+Gray box Testing: This is another type of testing in which we look into the box which is being tested, It is done only to understand how it has been implemented. After that, we close the box and use the black box testing.</string>
+    <string name="st_a3">Designing tests early in the life cycle prevent defects from being in the main code.</string>
+    <string name="st_a4">There are three types of defects: Wrong, missing, and extra.\n
+Wrong: These defects are occurred due to requirements have been implemented incorrectly. \n
+Missing: It is used to specify the missing things, i.e., a specification was not implemented, or the requirement of the customer was not appropriately noted. \n
+Extra: This is an extra facility incorporated into the product that was not given by the end customer.</string>
+    <string name="st_a5">Simultaneous test design and execution against an application is called exploratory testing. In this testing, the tester uses his domain knowledge and testing experience to predict where and under what conditions the system might behave unexpectedly.</string>
+    <string name="st_a6">Exploratory testing is performed as a final check before the software is released. It is a complementary activity to automated regression testing.</string>
+    <string name="st_a7">It helps you to prevent defects in the code.</string>
+    <string name="st_a8">The risk-based testing is a testing strategy that is based on prioritizing tests by risks. It is based on a detailed risk analysis approach which categorizes the risks by their priority. Highest priority risks are resolved first.</string>
+    <string name="st_a9">Acceptance testing is done to enable a user/customer to determine whether to accept a software product. It also validates whether the software follows a set of agreed acceptance criteria. In this level, the system is tested for the user acceptability.</string>
+    <string name="st_a10">Accessibility testing is used to verify whether a software product is accessible to the people having disabilities (deaf, blind, mentally disabled etc.).</string>
+    <string name="st_a11">Ad-hoc testing is a testing phase where the tester tries to break the system by randomly trying the systems functionality.</string>
+    <string name="st_a12">Agile testing is a testing practice that uses agile methodologies i.e. follow test-first design paradigm.</string>
+    <string name="st_a13">Application Programming Interface is a formalized set of software calls and routines that can be referenced by an application program to access supporting system or network services.</string>
+    <string name="st_a14">Testing by using software tools which execute test without manual intervention is known as automated testing. Automated testing can be used in GUI, performance, API, etc.</string>
+    <string name="st_a15">The Bottom-up testing is a testing approach which follows integration testing where the lowest level components are tested first, after that the higher level components are tested. The process is repeated until the testing of the top-level component.</string>
+    <string name="st_a16">In Baseline testing, a set of tests is run to capture performance information. Baseline testing improves the performance and capabilities of the application by using the information collected and make the changes in the application. Baseline compares the present performance of the application with its previous performance.</string>
+    <string name="st_a17">Benchmarking testing is the process of comparing application performance with respect to the industry standard given by some other organization. \n
+It is a standard testing which specifies where our application stands with respect to others.</string>
+    <string name="st_a18">There are two types of testing which are very important for web testing: \n
+    Performance testing: Performance testing is a testing technique in which quality attributes of a system are measured such as responsiveness, speed under different load conditions and scalability. The performance testing describes which attributes need to be improved before the product is released in the market. \n
+    Security testing: Security testing is a testing technique which determines that the data and resources be saved from the intruders.
+</string>
+    <string name="st_a19">The difference between a web application and desktop application is that a web application is open to the world with potentially many users accessing the application simultaneously at various times, so load testing and stress testing are important. Web applications are also prone to all forms of attacks, mostly DDOS, so security testing is also very important in the case of web applications.</string>
+    <string name="st_a20">Verification : \n
+1. Verification is Static Testing. \n
+2. Verification occurs before Validation. \n
+3. Verification evaluates plans, document, requirements and specification \n\n
+Validation : \n
+1. Validation is Dynamic Testing. \n
+2. Validation occurs after Verification. \n
+3. Validation evaluates products.</string>
+    <string name="st_a21">Regression : \n
+Regression is a type of software testing that checks the code change does not affect the current features and functions of an application. \n\n
+Retesting : \n
+Retesting is the process of testing that checks the test cases which were failed in the final execution.</string>
+    <string name="st_a22">Preventative tests are designed earlier, and reactive tests are designed after the software has been produced.</string>
+    <string name="st_a23">The exit criteria are used to define the completion of the test level.
+</string>
+    <string name="st_a24">A decision table consists of inputs in a column with the outputs in the same column but below the inputs. \n
+The decision table testing is used for testing systems for which the specification takes the form of rules or cause-effect combination. The reminders you get in the table explore combinations of inputs to define the output produced.</string>
+    <string name="st_a25">Alpha Testing : \n
+It is always done by developers at the software development site. \n\n
+Beta Testing : \n
+It is always performed by customers at their site.</string>
+    <string name="st_a26">Random testing is also known as monkey testing. In this testing, data is generated randomly often using a tool. The data is generated either using a tool or some automated mechanism.</string>
+    <string name="st_a27">Negative Testing: When you put an invalid input and receive errors is known as negative testing. \n
+Positive Testing: When you put in the valid input and expect some actions that are completed according to the specification is known as positive testing.</string>
+    <string name="st_a28">Test independence is very useful because it avoids author bias in defining effective tests.</string>
+    <string name="st_a29">In boundary value analysis/testing, we only test the exact boundaries rather than hitting in the middle. For example: If there is a bank application where you can withdraw a maximum of 25000 and a minimum of 100. So in boundary value testing we only test above the max and below the max. </string>
+    <string name="st_a30">There are many ways to test the login feature of a web application: \n
+    Sign in with valid login, Close browser and reopen and see whether you are still logged in or not. \n
+    Sign in, then log out and then go back to the login page to see if you are truly logged out. \n
+    Log in, then go back to the same page, do you see the login screen again?</string>
+    <string name="st_a31">1. Load testing \n
+2. Stress testing \n
+3. Spike testing \n
+4. Endurance testing \n
+5. Volume testing \n
+6. Scalability testing </string>
+    <string name="st_a32">Functional testing is a testing technique which checks that function of the application works under the requirement specification. \n
+Non-functional testing checks all the non-functional aspects such as performance, usability, reliability, etc.</string>
+    <string name="st_a33">Static testing is a white box testing technique which is done at the initial stage of the software development lifecycle. \n
+Static testing is performed before the code deployment. \n
+Dynamic testing is a testing process which is done at the later stage of the software development lifecycle. \n
+Dynamic testing is performed after the code deployment.</string>
+    <string name="st_a34">Positive testing means testing the application by providing valid data. \n
+Negative testing means testing the application by providing the invalid data.</string>
+    <string name="st_a35">Waterfall model \n
+Spiral Model \n
+Prototype model \n
+Verification and validation model \n
+Hybrid model \n
+Agile model</string>
+    <string name="st_a36">Smoke testing : \n
+It is shallow, wide and scripted testing. \n
+Sanity testing : \n
+It is narrow and deep and unscripted testing. \n
+Dry run testing : \n
+A dry run testing is a process where the effects of a possible failure are internally mitigated.
+</string>
+    <string name="st_a37">To test any web application such as Yahoo, Gmail, and so on, we will perform the following testing: \n
+    Functional testing \n
+    Integration testing \n
+    System testing \n
+    Performance testing </string>
+    <string name="st_a38">We might have developed the software in one platform, and the chances are there that users might use it in the different platforms. Hence, it could be possible that they may encounter some bugs and stop using the application, and the business might get affected. Therefore, we will perform one round of Compatibility testing.
+</string>
+    <string name="st_a39">We can tell anywhere between 2-5 test cases. \n
+    First test case : 1st day, 2nd day. \n
+    Second test case : 3rd day, 4th day. \n
+    Forth test case : 5th day. \n
+    9-10 test cases : 19th day.</string>
+    <string name="st_a40">It would be around 7 test cases we write so that we can review 7*3=21 test cases. And we can say that 25-30 test case per day.</string>
+    <string name="st_a41">We can run around 30-55 test cases per day.</string>
+    <string name="st_a42">
+    The testing team is not good \n
+    Developers are super \n
+    Product is old \n
+    All of the above
+</string>
+    <string name="st_a43">We can track the bug manually as: \n\n
+    Identify the bug. \n
+    Make sure that it is not duplicate (that is, check it in bug repository). \n
+    Prepare a bug report. \n
+    Store it in bug repository. \n
+    Send it to the development team.</string>
+    <string name="st_a44">Software complexity\n
+Programming errors \n
+If no communications are happening between the customer and the company</string>
+    <string name="st_a45">We will perform testing whenever we need to check all requirements are executed correctly or not, and to make sure that we are delivering the right quality product.</string>
+
+    <!--HR-->
+    <string name="hr_q1">1. Tell me about yourself?</string>
+    <string name="hr_q2">2. Why are you applying for this job? (or) Why this role attract you?</string>
+    <string name="hr_q3">3. Would you like to work overtime or odd hours?</string>
+    <string name="hr_q4">4. What is more important to you: the money or the work?</string>
+    <string name="hr_q5">5. What do you know about this organization?</string>
+    <string name="hr_q6">6. Why did you leave your last job?</string>
+    <string name="hr_q7">7. Why should we hire you?</string>
+    <string name="hr_q8">8. What are your salary expectations?</string>
+    <string name="hr_q9">9. Assume you are hired, then how long would you expect to work for us?</string>
+    <string name="hr_q10">10. How would you rate yourself on a scale of 1 to 10?</string>
+    <string name="hr_q11">11. What are your achievements in life?</string>
+    <string name="hr_q12">12. What is your objective in life?</string>
+    <string name="hr_q13">13. What are your strengths?</string>
+    <string name="hr_q14">14. What are your weaknesses?</string>
+    <string name="hr_q15">15. What are your hobbies?</string>
+    <string name="hr_q16">16. Explain, how would you be an asset to this organization?</string>
+    <string name="hr_q17">17. Would you lie for the company?</string>
+    <string name="hr_q18">18. Are you applying for other jobs also?</string>
+    <string name="hr_q19">19. How do you get to know about our company?</string>
+    <string name="hr_q20">20. What does success mean to you?</string>
+    <string name="hr_q21">21. Describe yourself in one word?</string>
+    <string name="hr_q22">22. Just imagine that you have enough money to retire right now. Would you?</string>
+    <string name="hr_q23">23. What was the most difficult decision you have made in your past life?</string>
+    <string name="hr_q24">24. What will you do if you dont get this position?</string>
+    <string name="hr_q25">25. Do you have any questions for me?</string>
+
+    <string name="hr_a1">This is the most famous question for an interviewer and also most difficult to answer this question for the candidate. This question puts all the pressure on the candidate, and the interviewer relax. \n\n
+
+You should alert enough to answer this question. You should start with an easy and confident tone and answer in a proper manner. It should not be scripted. Always remember, you are not giving the interview to a robot so your articulation, your pronunciation of each word should be clear and confident.</string>
+    <string name="hr_a2">By this question, the interviewer wants to know that: \n\n
+    If you fully understand what the job entails \n
+    How well you might match their requirement \n
+    What appeals to you most about this job \n\n
+Before answering this question, take your own time an answer in the way that convinces the interviewer. Explain your qualities according to the above-stated points.</string>
+    <string name="hr_a3">You should become very honest to answer this question. Dont tell a lie or compromise to get the job only. If you dont have any problem, you can answer like this:</string>
+    <string name="hr_a4">This is a very tricky question. The work should always be more important than the money. This frame of mind is good for you(at least at the time of interview).</string>
+    <string name="hr_a5">You should fully aware of that organization where you are going for an interview, so check the history, present structure and working style of that organization. Check the companys website, Facebook, Twitter, Google+, LinkedIn pages to gather the information.</string>
+    <string name="hr_a6">You should be very careful with this question. Avoid trashing other employers and making a statement like I need more money. Instead of this, you can say that:</string>
+    <string name="hr_a7">Tell your qualifications and highlight that points which makes you unique.</string>
+    <string name="hr_a8">Dont ask your salary in exact numbers, instead of this show your commitment to the job itself.</string>
+    <string name="hr_a11">This question may also be asked that what are your biggest achievements? Or what are you most proud of? \n
+You should discuss only work-related achievements. Try to pick a recent achievement.</string>
+    <string name="hr_a12">Your answer should be realistic and practical.</string>
+    <string name="hr_a13">You should always remember that even if your strength is not business related, find a way to relate it to work. Tell your positive points related to the job.</string>
+    <string name="hr_a14">Everyone has weaknesses so while answering this question dont spend so much time on this. This question is generally asked to know how honest you are with yourself. State one or two minor weaknesses and try to relate it works. (avoid saying I work too hard it is a very common answer). Dont pretend you dont have weaknesses and dont avoid answering the question.</string>
+    <string name="hr_a15">It totally depends on you what you like and what hobbies do you have but always justify your answer. </string>
+    <string name="hr_a16">While answering this question, dont merely say that you are hard working, dedicated, punctual, etc. because these are not assets, these are the responsibility that management wants. Off course these are positive words and has a lot of meaning for you as well as for the company. Actually, these qualities make you an asset for the company after getting experience.</string>
+    <string name="hr_a17">You should answer this question in a very diplomatic manner.</string>
+    <string name="hr_a18">This question has a very specific purpose. The interviewer wants to know that if the candidate admits that he has applied to other places or gives a canned answer. Or what the candidate think about their company. \n\n
+You should never claim that you did not apply to other company. Despite this, you can say that -</string>
+    <string name="hr_a19">The interviewer should not lie while answering such questions. Because an interviewer is a brilliant person and they can detect it if you are lying.</string>
+    <string name="hr_a21">This question is asked to the candidate to judge how spontaneous and explaining he is. If he uses a word, he must be able to explain that word and also represent himself according to that word. \n\n
+These are some positive words. You can use it but be sure that you are judging with the word.</string>
+    <string name="hr_a22">If your answer is YES, you are surely get FAILED.</string>
+    <string name="hr_a23">This question is asked to judge your decision-making capabilities. The interviewer wants to know, how you take a decision in tough times.</string>
+    <string name="hr_a25">Its your turn now. If you get such an opportunity, you may ask questions like that:</string>
+
+
+    <string name="a1p1">Good morning/afternoon/evening sir/mam. \n\n
+
+First of all, thank you for giving me this opportunity to introduce myself. \n\n
+
+My name is Ajeet Kumar. \n\n
+
+As far as my education qualification is concerned, I have done MBA with finance stream from Srivenkateswara university in Emeralds P. G. College, Tirupathi, in the year of 2014. \n\n
+
+I had completed B.tech from N.I.T Jaipur in 2012.\n\n
+
+I had completed my schooling from G.I.C. Allahabad.\n\n
+
+As far as concerned my family, I belong to a middle-class family. My father is a Businessman, and my Mother is a homemaker. My brother is preparing for civil services. \n\n
+
+I am good in programming languages C, C++, and Java and very much interested in HTML, CSS, ASP. Net and SQL. \n\n
+
+My strength is self-confidence, positive attitude, hard work. \n\n
+
+My weakness is: I can easily believe every one. \n\n
+
+My hobbies are: Watching news channels, Playing volleyball, Listening to music.</string>
+    <string name="a1p2">Good morning/afternoon/evening sir/mam, its my pleasure to introduce myself. I am Anshika Bansal. I belong to Meerut. I have done my B.Tech in CSE from Lovely Professional University. \n\n
+
+While coming to my family members, there are 4 members including me. My father is a doctor, and any mother is a teacher. My younger sister will appear her 12th CBSE board exam this year. \n\n
+
+Now coming to me, I am sweet smart, confident, and hardworking person. I am a cool hearted person, so usually see every difficulty with a positive side and keep myself always smiling which makes me stronger even more.\n\n
+
+I can carry out any task assigned to me without hesitation.\n\n
+
+My hobbies are dancing, Internet surfing, playing Chess, listening to music, watching the news channel. In my spare time, I like to read news on my phone and traveling to my hometown. \n\n
+
+Thank you for giving this opportunity to introduce myself.</string>
+    <string name="a1p3">Good morning/afternoon/evening sir/mam, its my pleasure to introduce myself. I am Nithish Kumar. I belong to Meerut. I have done my B.Tech in CSE from Lovely Professional University. \n\n
+
+I am carrying 5 years of experience at top Wall Street Companies. In my recent company, I led the development of an award-winning new trading platform. I can survive in a fast-paced environment. \n\n
+
+Now I am looking for a chance to apply my technical expertize and my creative problem-solving skills at an innovative software company like yours.</string>
+
+    <string name="a2p1">I have applied for this vacancy because it is an excellent match for my skills and experience. This role is exactly the sort of role I am currently targeting, and I am confident I will be able to make a major contribution.</string>
+    <string name="a2p2">Sir, its a great privilege to work in a reputed company like yours. When I read about your requirement, I found that my skills are matching with them. Through this role, I can show my technical skills to contribute to the company growth.</string>
+
+    <string name="a3p1"> I know that in the company being asked to work for an extended number of hours comes with a good reason, so I am ok with it. It an extra effort means I am doing something for the company, I will be happy to do it. </string>
+
+    <string name="a4p1">Money is always important, but the work is most important for me.</string>
+    <string name="a4p2">I would say that work is more important. If we work and achieve Company goals then obviously money would follow. I believe work to be prior.</string>
+    <string name="a4p3">Work is more important for me. Working just for money may not be fulfilled if I dont feel satisfied with my job. My work makes me stay productive, and money would naturally come along well.</string>
+    <string name="a4p4">I think money probably matters to me about as much as it does to anyone. Its vital and necessary for us to live and prosper but, at the same time, its not my single most important driving force. I believe that money is rewarded for work.</string>
+
+    <string name="a5p1">We all know that it is one of the fastest growing infrastructure company in India. The facilities provided to the employee is best. People feel proud to be the part of your company as the company provides full support to their employees in professional front. The working environment of this company is decent. It has crossed the branches in the world also. And I was in search of this type of company.</string>
+    <string name="a5p2">We all know that this company is Indias no.1 company for development. I was delighted to see on your company website that your employees are talking about how great it is to work for your company. Now these days, so many people seem to hate the company where they work for one reason or another. Its great to see that your employees are proud to talk about how much they love their company and jobs.</string>
+
+    <string name="a6p1">Sir, its a career move. I have learned a lot from my last job, but now I am looking for new challenges to broaden my horizons and to gain a new skill-set.</string>
+
+    <string name="a7p1">I believe that everyone starts with a beginning, I need a platform to prove my abilities and skills. I think your company is the right place to explore my abilities. I need to be a part of your growth. I will do my level best.</string>
+    <string name="a7p2">As a fresher, I need a platform to prove my ability. If I will be a part of your company, I will put my effort and strength to uplift your company. None is born with experience, and if you hire me, I will get professional experience through your company.</string>
+    <string name="a7p3">Sir, as I am a fresher, I have theoretical knowledge, but I need a platform where I can implement my knowledge in the practical field. I am ensuring you that I will put all my efforts for the good progress of the organization. As a fresher, I have no preset mind regarding work culture in an organization, and this will help me to adapt the working culture of your company very easily. Being punctual and regular, I can finish the work giving to me on time and try my best to fulfill all the needs of the company.</string>
+    <string name="a7p4">I have a good experience in that particular field (field of your specialization), and I think my talents will be a big contribution to the continuing pursuit of excellence of your company.</string>
+
+    <string name="a8p1">I am more interested in the role than the pay, and I expect to be paid appropriate money for this role based on my experience. As you also know that the high cost of living here in Delhi.</string>
+    <string name="a8p2">As I am fresher, Salary is not an issue for me. Learning and gaining experience is my major priority. As your company is one of the most reputed company, I just accept the salary offered by you is the best in the industry.</string>
+    <string name="a8p3">As of now, I havent thought much about it. I am more focused on learning the requirements for this position that I am applying for.</string>
+
+    <string name="a9p1">I will do my best for the growth of your company as long as I have the career growth, job satisfaction, respect and a healthy environment, then I dont need to change my company.</string>
+    <string name="a9p2">I will work with the company as long as my presence benefits the company and I get ample opportunity to grow and develop both professionally and monetarily.</string>
+    <string name="a9p3">Everyone looks for a bright future, healthy work environment, good salary, job satisfaction and I am pretty sure that your company gives such things, so I dont need to change the company.</string>
+    <string name="a9p4">I will work with the company as long as my presence benefits both the company and mine in parallel. So your company gains good results, and I can be in a good position to improve my skills.</string>
+
+    <string name="a10p1"> I will rate myself 8 out of 10 because I would never like to think that there should be a room left for putting in more efforts. That thought will create an interest in learning the things. Thank you very much for giving me this wonderful opportunity.</string>
+    <string name="a10p2">I will answer this question based on some parameters. As far as hard work is concerned, I will rate myself as 8 because there should always be a scope to increase our skills which will create an interest in learning the things. When it comes to creativity, I would like to rate myself as 9. In the past, I have designed banners and brochures which were appreciated by the clients. To talk about patience, I will tag myself with 6 because I am an entry-level professional. Same as personal life, even professional life needs more experience for more patience. That is probably why in most companies, senior management looks more patient than entry level or even middle level. Overall, I would rate myself as 8 on a scale of 1 to 10.</string>
+
+    <string name="a11p1">My greatest achievement so far in my career would probably be winning the Manager of the Year award last year.</string>
+    <string name="a11p2">My biggest accomplishment is overcoming my fear of failure. It gives me a complete sense of living and makes me more confident.</string>
+    <string name="a11p3">I experienced my greatest achievement when I worked as a website manager for an entertainment outlet. My team was under pressure and the website was struggling at the time, and I was tasked with forming a strategy to increase traffic.</string>
+
+    <string name="a12p1">My short-term goal is to work in a reputed organization like yours where I can enhance my technical skills and knowledge.
+
+My long-term goal is to see the company at a topmost position where I am one of the people responsible for that.</string>
+    <string name="a12p2">My goal is to become a successful person and make my family proud of me.</string>
+
+    <string name="a13p1">My main strengths are the ability to use my initiative to take on challenges. I am always proactive at what I do, and that keeps my mind stimulated and focused.</string>
+    <string name="a13p2">My greatest strengths would be my intelligence and thoughtfulness. I believe that in every work environment you need to process every step and be detailed in your work. </string>
+    <string name="a13p3">My time management skills are excellent, and Im organized, efficient, and take pride in excelling at my work.</string>
+    <string name="a13p4">I always understand the value of time, and I am always able to innovate. I listen to advice from others.</string>
+
+    <string name="a14p1">You can say, I used to be very disorganized, always forgetting assignments and birthdays. But I managed to work out a computerized system of to-do lists and reminders that keep me on top of everything.</string>
+    <string name="a14p2">I am a straightforward person, and I cannot say no when someone asks me for help.</string>
+
+    <string name="a15p1">My hobbies are dancing, Internet surfing, playing Chess, listening to music, watching the news channel. In my spare time, I like to read news on my phone and traveling to my hometown. Thank you for giving this opportunity to introduce myself.</string>
+
+    <string name="a16p1">To become an asset for an organization, we have to punctual, dedicated, quickly adapt of the environment and positive working attitude I have all of these qualities so I will prove an asset for this company.</string>
+    <string name="a16p2">As Im a fresher, I will be passionate about my work, and if given a chance I will be ready to expose myself into different sectors of work into the industry, and would be faithful to the company always.</string>
+    <string name="a16p3">My skill in XYZ company is outstanding. I have earned a lot of certificates and awards from my past employers. As an employee, I can handle pressure with ease and can work with minimal supervision.</string>
+
+    <string name="a17p1">It depends on the situation if my lie creates a positive impact on the company and It was useful for many people, then I will lie.</string>
+    <string name="a17p2">Probably I would say no for a lie. But if condition persists that my lie will help thousands of persons and it is not giving any impact to other persons, then I will agree with the lie. My one lie results lot of success and happiness without hurting others rights then I expect to do this.</string>
+
+    <string name="a18p1">As you know, I would like to work as a software developer. Beyond your company, I have also applied to XYZ company and ABC company. This answer is more specific.</string>
+
+    <string name="a19p1">I get to know about your company from several online websites.</string>
+
+    <string name="a20p1">If I feel I am making a difference working with a team of people to make a more profitable company. It is a success for me.</string>
+    <string name="a20p2">If I put a smile on someone face and make him happy, it is a success for me.</string>
+
+    <string name="a21p1">Original, genuine, logical, incredible, focused, curious, active, quick, balanced, achiever, etc. </string>
+
+    <string name="a22p1">No sir, I dont think so. I am a professional, and I love my work, so there is no question to leave my work. Yes, it may be that I would take a break to spend quality time with my family.</string>
+
+    <string name="a23p1">After completing my graduation, the toughest decision is whether to go for higher studies or do a job. Then I chose the job because getting trained is better than educated and it was also the demand of that time.</string>
+    <string name="a23p2">My toughest decision was to take admission in B.tech. I belong to a middle-class family, and my father was not in favor of taking admission, but I convinced him, and today he is very happy.</string>
+    <string name="a23p3">Before some time when I had to choose between joining a group of employees protesting some issue, and staying away from the issue. I ended up being a mediator between our immediate supervisor and employees, and I am glad I made that decision because it all ended well and without further conflicts in the company.</string>
+
+    <string name="a24p1">I have high hopes that I will be selected. In case if I will not select, I will continue to look for another job in the same field that will fit my schedule and goals. </string>
+    <string name="a24p2">If I dont get this job, I will use this experience to reflect my weakness and try my best to improve on them for the future opportunities along the way.</string>
+
+    <string name="a25p1">Thank you for giving me this opportunity. After my overall performance till now if I got selected what I need to improve and if Im not selected how can I succeed further. Can you give any advice sir?</string>
+    <string name="a25p2">First of all thank you very much, for being so much polite and friendly to me throughout the session, that I can express myself so easily. Can you please tell me that what are the qualities you are expecting from fresher like us and I want to know, if am selected, then what should I improve before I join your company, if I am not selected, your opinion will help me to the upcoming interview.</string>
+
+
+    <!--InterviewTips-->
+    <string name="tips_q1">1. Do Your Research</string>
+    <string name="tips_q2">2. Look Sharp</string>
+    <string name="tips_q3">3. Be Prepared</string>
+    <string name="tips_q4">4. Be on Time</string>
+    <string name="tips_q5">5. Show Enthusiasm </string>
+    <string name="tips_q6">6. Listen</string>
+    <string name="tips_q7">7. Answer the Question Asked</string>
+    <string name="tips_q8">8. Give Specific Examples</string>
+    <string name="tips_q9">9. Ask Questions</string>
+    <string name="tips_q10">10. Follow Up</string>
+    <string name="tips_q11">11. Review Common Interview Questions and Prepare Responses</string>
+    <string name="tips_q12">12. Dress for Success</string>
+    <string name="tips_q13">13. Make Good First Impressions to Everyone You Encounter</string>
+    <string name="tips_q14">14. Be Authentic, Upbeat, Focused, Confident, Candid, and Concise</string>
+    <string name="tips_q15">15. Remember Body Language, Avoiding Bad Habits</string>
+    <string name="tips_q16">16. Ask Insightful Questions</string>
+    <string name="tips_q17">17. Sell Yourself Throughout and then Close the Deal</string>
+    <string name="tips_q18">18. Thank Interviewer(s) in Person, by Email, and Postal Mail</string>
+    <string name="tips_q19">19. Emphasize Your Good Qualities</string>
+    <string name="tips_q20">20. If You Dont Get Hired, Find Out Why?</string>
+
+    <string name="tips_a1">Researching the company before the interview and learning as much as possible about its services, products, customers and competition will give you an edge in understanding and addressing the companys needs. The more you know about the company and what it stands for, the better chance you have of selling yourself in the interview. You also should find out about the companys culture to gain insight into your potential happiness on the job.</string>
+    <string name="tips_a2">Select what to wear to the interview. Depending on the industry and position, get out your best interview clothes and check them over for spots and wrinkles. Even if the company has a casual environment, you dont want to look like you slept in your outfit. Above all, dress for confidence. If you feel good, others will respond to you accordingly.</string>
+    <string name="tips_a3">Bring along a folder containing extra copies of your resume, a copy of your references and paper to take notes. You should also have questions prepared to ask at the end of the interview. For extra assurance, print a copy of Monsters handy interview take-along checklist.</string>
+    <string name="tips_a4">Never arrive late to an interview. Allow extra time to arrive early in the vicinity, allowing for factors like getting lost. Enter the building 10 to 15 minutes before the interview.</string>
+    <string name="tips_a5">A firm handshake and plenty of eye contact demonstrate confidence. Speak distinctly in a confident voice, even though you may feel shaky.</string>
+    <string name="tips_a6">One of the most neglected interview skills is listening. Make sure you are not only listening, but also reading between the lines. Sometimes what is not said is just as important as what is said.</string>
+    <string name="tips_a7">Candidates often dont think about whether they are actually answering the questions their interviewers ask. Make sure you understand what is being asked, and get further clarification if you are unsure.</string>
+    <string name="tips_a8">One specific example of your background is worth 50 vague stories. Prepare your stories before the interview. Give examples that highlight your successes and uniqueness. Your past behavior can indicate your future performance.</string>
+    <string name="tips_a9">Many interviewees dont ask questions and miss the opportunity to find out valuable information. The questions you ask indicate your interest in the company or job.</string>
+    <string name="tips_a10">Whether its through email or regular mail, the interview follow-up is one more chance to remind the interviewer of all the valuable traits you bring to the job and company. Dont miss this last chance to market yourself.
+It is important to appear confident and cool for the interview. One way to do that is to be prepared to the best of your ability. There is no way to predict what an interview holds, but by following these important rules you will feel less anxious and will be ready to positively present yourself.</string>
+    <string name="tips_a11">Another key to interview success is preparing responses to expected interview questions. First, inquire as to the type of interview to expect (which you can do by asking your contact person at the organization). Your goal is composing detailed yet concise responses, focusing on specific examples and accomplishments. A good tool for remembering your responses is to put them into story form that you can tell in the interview. No need to memorize responses (in fact, it’s best not to), but at least develop talking points. InterviewGuide has a number of excellent tools to help you with interview questions and responses.</string>
+    <string name="tips_a12">Plan out a wardrobe that fits the organization and its culture, striving for the most professional appearance you can accomplish. Remember that it’s always better to be overdressed than under and to wear clothing that fits and is clean and pressed. Keep accessories and jewelry to a minimum. Try not to smoke or eat right before the interview and if possible, brush your teeth or use mouthwash.</string>
+    <string name="tips_a13">A cardinal rule of interviewing: Be polite and offer warm greetings to everyone you meet from parking attendant or receptionist to the hiring manager. Employers often are curious how job applicants treat staff members and your job offer could easily be derailed if you’re rude or arrogant to any of the staff. When it’s time for the interview, keep in mind that first impressions the ones interviewers make in the first few seconds of greeting you can make or break an interview. Make a strong first impression by dressing well, arriving early, and when greeting your interviewer, stand, smile, make eye contact, and offer a firm (neither limp and nor bone-crushing) handshake. Remember that having a positive attitude and expressing enthusiasm for the job and employer are vital in the initial stages of the interview. Studies show that hiring managers make critical decisions about job applicants in the first 20 minutes of the interview.</string>
+    <string name="tips_a14">Once the interview starts, the key to success is the quality and delivery of your responses. Your goal should always be authenticity, responding truthfully to interview questions. At the same time, your goal is to get to the next step, so you’ll want to provide focused responses that showcase your skills, experience, and fit with the job and the employer. Provide solid examples of solutions and accomplishments but keep your responses short and to the point. Always attempt to keep your interview responses short and to the point. Finally, no matter how much an interviewer might bait you, never badmouth a previous employer, boss, or co-worker. The interview is about you and making your case that you are the ideal candidate for the job.</string>
+    <string name="tips_a15">While the content of your interview responses is paramount, poor body language can be a distraction at best or a reason not to hire you at worst. Effective forms of body language: smiling, eye contact, solid posture, active listening, nodding. Detrimental forms of body language: slouching, looking off in the distance, playing with pen, fidgeting in chair, brushing back hair, touching face, chewing gum, mumbling.</string>
+    <string name="tips_a16">Studies continually show that employers make a judgment about an applicants interest in the job by whether or not the interviewee asks questions. Thus, even if the hiring manager was thorough in his or her discussions about the job opening and what is expected, you must ask a few questions. The smart job-seeker prepares questions to ask days before the interview, adding any additional queries that might arise from the interview.</string>
+    <string name="tips_a17">An adage in interviewing says the most qualified applicant is not always the one who is hired which means the hired candidate is often the job-seeker who does the best job in responding to interview questions and showcasing his or her fit with the job, department, and organization. Some liken the job interview to a sales call. You are the salesperson and the product you are selling to the employer is your ability to fill the organization’s needs, solve its problems, propel its success. 
+Finally, as the interview winds down, ask about the next steps in the process and the timetable the employer expects to use to make a decision about the position. If you are applying for a sales job or a position requiring equivalent aggressiveness consider asking for the job at the end of the interview.</string>
+    <string name="tips_a18">As you have already seen from previous tips, common courtesy and politeness go far in interviewing; thus, the importance of thanking each person who interviews you should come as no surprise. Start the process while at the interview, thanking each person who interviewed you. Writing thank-you emails and notes shortly after the interview will not get you the job offer, but doing so will certainly give you an edge over any of the other finalists who did not bother to send thank-yous.</string>
+    <string name="tips_a19">You will probably feel the need to be humble, but dont. Shameless self-promotion is a good thing in job interviews. In fact, its the only thing you can really do to showcase your good qualities. If you dont have experience to tout, remember that potential is actually more valuable than experience: if you can show why you are a promising hire, you are in.</string>
+    <string name="tips_a20">Not every interview will be a winner, sadly, even if you do everything right. If you dont get hired, the best thing you can do is find out why and apply that knowledge to your next round of interviews. Look back on your interview and think about what you could have done better, whether its avoiding the overqualification trap or just simply using better grammar. There are any number of reasons someone might not hire you, and all you can do is use this round as practice for your next interview.</string>
+
+</resources>
